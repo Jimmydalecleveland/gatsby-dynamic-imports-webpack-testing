@@ -1,9 +1,8 @@
 import React from 'react'
-import loadable from '@loadable/component'
 
-const Alpha = loadable(() => import('./components/Alpha.js'))
-const Bravo = loadable(() => import('./components/Bravo'))
-const Charlie = loadable(() => import('./components/Charlie'))
+import Alpha from './components/Alpha.js'
+import Bravo from './components/Bravo'
+import Charlie from './components/Charlie'
 
 export const determineComponent = (componentName) => {
   let Component

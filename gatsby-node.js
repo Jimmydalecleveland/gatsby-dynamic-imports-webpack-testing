@@ -9,14 +9,16 @@ exports.onCreateWebpackConfig = ({
   plugins,
   actions
 }) => {
-  actions.setWebpackConfig({
-    plugins: [
-      new BundleAnalyzerPlugin({
-        analyzerPort: 8889,
-        analyzerMode: "static",
-      })
-    ]
-  })
+  if (stage === 'build-javascript') {
+    actions.setWebpackConfig({
+      plugins: [
+        new BundleAnalyzerPlugin({
+          analyzerPort: 8889,
+          analyzerMode: "static",
+        })
+      ]
+    })
+  }
 }
  
 exports.createPages = async ({ graphql, actions }) => {

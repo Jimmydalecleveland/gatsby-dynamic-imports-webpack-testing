@@ -1,6 +1,7 @@
 import React from "react"
 import CHANNEL_LINEUP_DATA from "./leshen/ChannelLineup/dummyData"
 
+import Alpha from "./components/Alpha"
 import Bravo from "./components/Bravo"
 import Charlie from "./components/Charlie"
 import Delta from "./components/Delta.js"

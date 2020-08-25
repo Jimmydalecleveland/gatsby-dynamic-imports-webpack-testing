@@ -1,17 +1,15 @@
 import React from "react"
-import loadable from "@loadable/component"
 import CHANNEL_LINEUP_DATA from "./leshen/ChannelLineup/dummyData"
 
-const Alpha = loadable(() => import("./components/Alpha.js"))
-const Bravo = loadable(() => import("./components/Bravo"))
-const Charlie = loadable(() => import("./components/Charlie"))
-const Delta = loadable(() => import("./components/Delta.js"))
-const Echo = loadable(() => import("./components/Echo"))
-const Foxtrot = loadable(() => import("./components/Foxtrot"))
-const Button = loadable(() => import("./leshen/Button"))
-const Typography = loadable(() => import("./leshen/Typography"))
-const Accordion = loadable(() => import("./leshen/Accordion/AccordionDemo"))
-const ChannelLineup = loadable(() => import("./leshen/ChannelLineup"))
+import Bravo from "./components/Bravo"
+import Charlie from "./components/Charlie"
+import Delta from "./components/Delta.js"
+import Echo from "./components/Echo"
+import Foxtrot from "./components/Foxtrot"
+import Button from "./leshen/Button"
+import Typography from "./leshen/Typography"
+import Accordion from "./leshen/Accordion/AccordionDemo"
+import ChannelLineup from "./leshen/ChannelLineup"
 
 export const determineComponent = ({ id, name, children }) => {
   let Component

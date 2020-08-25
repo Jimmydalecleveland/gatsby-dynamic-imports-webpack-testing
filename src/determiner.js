@@ -1,4 +1,6 @@
 import React from "react"
+import loadable from "@loadable/component"
+import CHANNEL_LINEUP_DATA from "./leshen/ChannelLineup/dummyData"
 
 const Alpha = loadable(() => import("./components/Alpha.js"))
 const Bravo = loadable(() => import("./components/Bravo"))
@@ -8,6 +10,8 @@ const Echo = loadable(() => import("./components/Echo"))
 const Foxtrot = loadable(() => import("./components/Foxtrot"))
 const Button = loadable(() => import("./leshen/Button"))
 const Typography = loadable(() => import("./leshen/Typography"))
+const Accordion = loadable(() => import("./leshen/Accordion/AccordionDemo"))
+const ChannelLineup = loadable(() => import("./leshen/ChannelLineup"))
 
 export const determineComponent = ({ id, name, children }) => {
   let Component
@@ -37,6 +41,11 @@ export const determineComponent = ({ id, name, children }) => {
     case "Typography":
       Component = Typography
       break
+    case "Accordion":
+      Component = Accordion
+      break
+    case "Channel Lineup":
+      return <ChannelLineup data={CHANNEL_LINEUP_DATA} />
     default:
       return <h2>Not found</h2>
   }

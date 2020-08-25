@@ -1,0 +1,296 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Table Table should render 1`] = `
+.emotion-2 {
+  border: 2px solid #f4f5f6;
+  width: 100%;
+  position: relative;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.emotion-0 {
+  font-size: 16px;
+  font-family: inherit;
+  width: 100%;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+.emotion-0 thead tr th {
+  border-bottom: 2px solid #8036ff;
+  text-align: left;
+  font-weight: inherit;
+}
+
+.emotion-0 th,
+.emotion-0 td {
+  padding: 16px;
+  min-width: 125px;
+  background-color: white;
+  color: #383d43;
+  border: 0;
+}
+
+.emotion-0 td {
+  border-bottom: 1px solid #f4f5f6;
+  white-space: pre-wrap;
+}
+
+.emotion-0 td.sticky,
+.emotion-0 th.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  left: 0px;
+  min-width: 125px;
+  box-shadow: 0 0.3rem 1rem 0 rgba(0,0,0,0.1);
+}
+
+@media (min-width:540px) {
+  .emotion-0 td.sticky,
+  .emotion-0 th.sticky {
+    box-shadow: none;
+  }
+}
+
+.emotion-0 .sticky p {
+  max-width: 100px;
+}
+
+<div
+  class="emotion-2 emotion-3"
+>
+  <table
+    class="emotion-0 emotion-1"
+  >
+    <thead>
+      <tr>
+        <th
+          class=""
+        >
+          Average Monthly Use
+        </th>
+        <th
+          class=""
+        >
+          Average rate (cents/kWh from EFL)
+        </th>
+        <th
+          class=""
+        >
+          Total bill monthly usage
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td
+          class=""
+        >
+          500kWh
+        </td>
+        <td
+          class=""
+        >
+          12.1
+        </td>
+        <td
+          class=""
+        >
+          $121
+        </td>
+      </tr>
+      <tr>
+        <td
+          class=""
+        >
+          2,000 kWh
+        </td>
+        <td
+          class=""
+        >
+          11.9
+        </td>
+        <td
+          class=""
+        >
+          $238
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`Table Table should render with sticky header 1`] = `
+.emotion-2 {
+  border: 2px solid #f4f5f6;
+  width: 100%;
+  position: relative;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.emotion-0 {
+  font-size: 16px;
+  font-family: inherit;
+  width: 100%;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+.emotion-0 thead tr th {
+  border-bottom: 2px solid #8036ff;
+  text-align: left;
+  font-weight: inherit;
+}
+
+.emotion-0 th,
+.emotion-0 td {
+  padding: 16px;
+  min-width: 125px;
+  background-color: white;
+  color: #383d43;
+  border: 0;
+}
+
+.emotion-0 td {
+  border-bottom: 1px solid #f4f5f6;
+  white-space: pre-wrap;
+}
+
+.emotion-0 td.sticky,
+.emotion-0 th.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  left: 0px;
+  min-width: 125px;
+  box-shadow: 0 0.3rem 1rem 0 rgba(0,0,0,0.1);
+}
+
+@media (min-width:540px) {
+  .emotion-0 td.sticky,
+  .emotion-0 th.sticky {
+    box-shadow: none;
+  }
+}
+
+.emotion-0 .sticky p {
+  max-width: 100px;
+}
+
+<div
+  class="emotion-2 emotion-3"
+>
+  <table
+    class="emotion-0 emotion-1"
+  >
+    <thead>
+      <tr>
+        <th
+          class="sticky"
+        >
+          Activity
+        </th>
+        <th
+          class=""
+        >
+          Average File Size
+        </th>
+        <th
+          class=""
+        >
+          Download Time
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td
+          class="sticky"
+        >
+          Stream a 4 minute song
+        </td>
+        <td
+          class=""
+        >
+          5 MB
+        </td>
+        <td
+          class=""
+        >
+          0.4 sec
+        </td>
+      </tr>
+      <tr>
+        <td
+          class="sticky"
+        >
+          Watch a 5 minute video
+        </td>
+        <td
+          class=""
+        >
+          62 MB
+        </td>
+        <td
+          class=""
+        >
+          4.96 sec
+        </td>
+      </tr>
+      <tr>
+        <td
+          class="sticky"
+        >
+          Scroll social media for 1 hour
+        </td>
+        <td
+          class=""
+        >
+          156 MB
+        </td>
+        <td
+          class=""
+        >
+          12.48 sec
+        </td>
+      </tr>
+      <tr>
+        <td
+          class="sticky"
+        >
+          Stream a 45 minute episode
+        </td>
+        <td
+          class=""
+        >
+          750 MB
+        </td>
+        <td
+          class=""
+        >
+          1 minute
+        </td>
+      </tr>
+      <tr>
+        <td
+          class="sticky"
+        >
+          Watch a 2 hour HD movie
+        </td>
+        <td
+          class=""
+        >
+          2GB
+        </td>
+        <td
+          class=""
+        >
+          2.6 minutes
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;

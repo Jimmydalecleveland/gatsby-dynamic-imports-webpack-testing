@@ -1,14 +1,14 @@
-import React from 'react'
-import { Link } from 'gatsby'
+import React from "react"
+import { Link } from "gatsby"
 
 const Root = ({ pageContext: { pageData } }) => {
   return (
     <div>
-      {pageData.map(page =>
+      {pageData.map(page => (
         <li>
           <Link to={page.slug}>{page.slug}</Link>
-        </li>)
-      }
+        </li>
+      ))}
     </div>
   )
 }

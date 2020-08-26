@@ -1,0 +1,26 @@
+import { Story, Meta, Preview, Props, Anchor } from '@storybook/addon-docs/blocks'
+
+import ChannelLineup from '.'
+import Typography from '../Typography'
+import Section from '../Section'
+
+import CHANNEL_LINEUP_DATA from './dummyData'
+
+<Meta title='Components|ChannelLineup' component={ChannelLineup} />
+
+# Channel Lineup
+
+<Preview>
+  <Story name="basic">
+    <ChannelLineup data={CHANNEL_LINEUP_DATA} />
+  </Story>
+</Preview>
+
+## With Section
+<Preview>
+  <Story name="with section">
+    <Section>
+      <ChannelLineup data={CHANNEL_LINEUP_DATA} />
+    </Section>
+  </Story>
+</Preview>

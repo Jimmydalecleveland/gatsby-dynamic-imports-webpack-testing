@@ -1,5 +1,5 @@
 const path = require('path')
-const pageData = require('./pageData/pages.json')
+const pageData = require('./pageData/pages')
 const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 
 exports.onCreateWebpackConfig = ({
@@ -32,6 +32,7 @@ exports.createPages = async ({ graphql, actions }) => {
     }
   })
 
+  console.log("============== Page Data ================\n")
   pageData.forEach(page => {
     console.log(page)
 

@@ -1,0 +1,140 @@
+import { Story, Meta, Preview, Props, Anchor } from '@storybook/addon-docs/blocks'
+
+import Pullquote, { ticketID } from '.'
+import Section from '../Section'
+import VariableContent from '../VariableContent'
+import Carousel from '../Carousel'
+import Typography from '../Typography'
+import ComponentProgress from '../ComponentProgress'
+
+<Meta title='Components|Pullquote' component={Pullquote} decorators={[(story) => <><ComponentProgress ticketID={ticketID} />{story()}</>]} />
+
+# Pullquote
+
+<Preview>
+  <Story name="default">
+    <VariableContent centeredContent>
+      <Typography>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo dolores
+        laboriosam, consequatur molestiae ea hic beatae, numquam quis maiores
+        aliquam incidunt culpa repudiandae nostrum enim rem itaque! Dolore,
+        impedit possimus.
+      </Typography>
+      <Pullquote cite="John Doe">
+        &quot;Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+        quis vero ad deleniti iusto quo sequi omnis? Cupiditate doloribus
+        molestias recusandae tenetur fuga ipsam enim.&quot;
+      </Pullquote>
+      <Typography>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo dolores
+        laboriosam, consequatur molestiae ea hic beatae, numquam quis maiores
+        aliquam incidunt culpa repudiandae nostrum enim rem itaque! Dolore,
+        impedit possimus.
+      </Typography>
+    </VariableContent>
+  </Story>
+</Preview>
+
+## Props
+<Props of={Pullquote} />
+
+## In a Carousel
+
+<Preview>
+  <Story name="in a carousel">
+    <>
+      <Section>
+        <Carousel
+          dots
+          infinite={false}
+          speed={500}
+          slidesToShow={1}
+          slidesToScroll={1}
+          initialSlide={0}
+        >
+          <StyledPullquoteContainer key={1}>
+            <Pullquote cite="John Doe">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+              quis vero ad deleniti iusto quo sequi omnis? Cupiditate doloribus
+              molestias recusandae tenetur fuga ipsam enim.
+            </Pullquote>
+          </StyledPullquoteContainer>
+          <StyledPullquoteContainer key={2}>
+            <Pullquote cite="John Doe">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+              fuga eligendi debitis deserunt commodi maxime culpa. Reiciendis
+              doloremque unde molestias fuga et id? Iusto, ex?
+            </Pullquote>
+          </StyledPullquoteContainer>
+          <StyledPullquoteContainer key={3}>
+            <Pullquote cite="John Doe">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+              quis vero ad deleniti iusto quo sequi omnis? Cupiditate doloribus
+              molestias recusandae tenetur fuga ipsam enim.
+            </Pullquote>
+          </StyledPullquoteContainer>
+          <StyledPullquoteContainer key={4}>
+            <Pullquote cite="John Doe">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+              quis vero ad deleniti iusto quo sequi omnis? Cupiditate doloribus
+              molestias recusandae tenetur fuga ipsam enim.
+            </Pullquote>
+          </StyledPullquoteContainer>
+          <StyledPullquoteContainer key={5}>
+            <Pullquote cite="John Doe">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+              quis vero ad deleniti iusto quo sequi omnis? Cupiditate doloribus
+              molestias recusandae tenetur fuga ipsam enim.
+            </Pullquote>
+          </StyledPullquoteContainer>
+        </Carousel>
+      </Section>
+      <Section prominent>
+        <Carousel
+          dots
+          infinite={false}
+          speed={500}
+          slidesToShow={1}
+          slidesToScroll={1}
+          initialSlide={0}
+        >
+          <StyledPullquoteContainer key={1}>
+            <Pullquote cite="John Doe">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+              quis vero ad deleniti iusto quo sequi omnis? Cupiditate doloribus
+              molestias recusandae tenetur fuga ipsam enim.
+            </Pullquote>
+          </StyledPullquoteContainer>
+          <StyledPullquoteContainer key={2}>
+            <Pullquote cite="John Doe">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+              fuga eligendi debitis deserunt commodi maxime culpa. Reiciendis
+              doloremque unde molestias fuga et id? Iusto, ex?
+            </Pullquote>
+          </StyledPullquoteContainer>
+          <StyledPullquoteContainer key={3}>
+            <Pullquote cite="John Doe">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+              quis vero ad deleniti iusto quo sequi omnis? Cupiditate doloribus
+              molestias recusandae tenetur fuga ipsam enim.
+            </Pullquote>
+          </StyledPullquoteContainer>
+          <StyledPullquoteContainer key={4}>
+            <Pullquote cite="John Doe">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+              quis vero ad deleniti iusto quo sequi omnis? Cupiditate doloribus
+              molestias recusandae tenetur fuga ipsam enim.
+            </Pullquote>
+          </StyledPullquoteContainer>
+          <StyledPullquoteContainer key={5}>
+            <Pullquote cite="John Doe">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+              quis vero ad deleniti iusto quo sequi omnis? Cupiditate doloribus
+              molestias recusandae tenetur fuga ipsam enim.
+            </Pullquote>
+          </StyledPullquoteContainer>
+        </Carousel>
+      </Section>
+    </>
+  </Story>
+</Preview>

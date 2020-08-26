@@ -1,0 +1,1072 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CTABar CTABar component should render 1`] = `
+.emotion-12 {
+  background-color: #0f6bc0;
+  color: #fff;
+  border-top: 5px solid;
+  width: 100%;
+  z-index: 3;
+}
+
+.emotion-12.original {
+  border: 0;
+}
+
+.emotion-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 8px 16px;
+  font: inherit;
+  color: #000;
+  background-color: #f4f5f6;
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-appearance: button;
+  box-shadow: 0 0.3rem 1rem 0 rgba(0,0,0,0.1);
+  color: #f4f5f6;
+  box-shadow: none;
+  background-color: transparent;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.emotion-2 > * {
+  pointer-events: none;
+}
+
+.emotion-2 .e1u83bah1 svg,
+.emotion-2 svg {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  fill: #000;
+  height: 16px;
+  width: 16px;
+}
+
+.emotion-2 .button-text {
+  margin-left: 8px;
+}
+
+.emotion-2:hover {
+  color: #000;
+  background-color: #e6e8eb;
+}
+
+.emotion-2:active {
+  color: #000;
+  background-color: #d8dcdf;
+}
+
+.emotion-2:disabled {
+  background-color: #cacfd4;
+  color: #5b636d;
+}
+
+.emotion-2 .e1u83bah1 svg,
+.emotion-2 svg {
+  fill: #f4f5f6;
+}
+
+.emotion-2:hover .e1u83bah1 svg,
+.emotion-2:hover svg {
+  fill: #000;
+}
+
+.emotion-2 .e1u83bah1 svg,
+.emotion-2 svg {
+  height: 24px;
+  width: 24px;
+}
+
+.emotion-2 .button-text {
+  margin-left: 12px;
+}
+
+.emotion-0 {
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+}
+
+@media all and (-ms-high-contrast:none),(-ms-high-contrast:active) {
+  .emotion-0 {
+    width: 100%;
+  }
+}
+
+<div>
+  <div
+    class="emotion-12 emotion-13"
+  >
+    <button
+      class="emotion-2 emotion-3"
+      color="light"
+      tabindex="0"
+      type="button"
+    >
+      <div>
+        Phone icon Mock
+      </div>
+      <span
+        class="button-text emotion-0 emotion-1"
+      >
+        Call Now: 888-888-8888
+      </span>
+    </button>
+    <button
+      class="emotion-2 emotion-3"
+      color="light"
+      tabindex="0"
+      type="button"
+    >
+      <div>
+        QuestionAnswer icon Mock
+      </div>
+      <span
+        class="button-text emotion-0 emotion-1"
+      >
+        Chat with agent
+      </span>
+    </button>
+    <button
+      class="emotion-2 emotion-3"
+      color="light"
+      tabindex="0"
+      type="button"
+    >
+      <div>
+        Done icon Mock
+      </div>
+      <span
+        class="button-text emotion-0 emotion-1"
+      >
+        Check Availability
+      </span>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`CTABar CTABar with light prop should render 1`] = `
+.emotion-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 8px 16px;
+  font: inherit;
+  color: #000;
+  background-color: #f4f5f6;
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-appearance: button;
+  box-shadow: 0 0.3rem 1rem 0 rgba(0,0,0,0.1);
+  color: #f4f5f6;
+  box-shadow: none;
+  background-color: transparent;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.emotion-2 > * {
+  pointer-events: none;
+}
+
+.emotion-2 .e1u83bah1 svg,
+.emotion-2 svg {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  fill: #000;
+  height: 16px;
+  width: 16px;
+}
+
+.emotion-2 .button-text {
+  margin-left: 8px;
+}
+
+.emotion-2:hover {
+  color: #000;
+  background-color: #e6e8eb;
+}
+
+.emotion-2:active {
+  color: #000;
+  background-color: #d8dcdf;
+}
+
+.emotion-2:disabled {
+  background-color: #cacfd4;
+  color: #5b636d;
+}
+
+.emotion-2 .e1u83bah1 svg,
+.emotion-2 svg {
+  fill: #f4f5f6;
+}
+
+.emotion-2:hover .e1u83bah1 svg,
+.emotion-2:hover svg {
+  fill: #000;
+}
+
+.emotion-2 .e1u83bah1 svg,
+.emotion-2 svg {
+  height: 24px;
+  width: 24px;
+}
+
+.emotion-2 .button-text {
+  margin-left: 12px;
+}
+
+.emotion-0 {
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+}
+
+@media all and (-ms-high-contrast:none),(-ms-high-contrast:active) {
+  .emotion-0 {
+    width: 100%;
+  }
+}
+
+.emotion-12 {
+  background-color: #fff;
+  color: #0f6bc0;
+  border-top: 5px solid;
+  width: 100%;
+  z-index: 3;
+}
+
+.emotion-12.original {
+  border: 0;
+}
+
+<div>
+  <div
+    class="emotion-12 emotion-13"
+  >
+    <button
+      class="emotion-2 emotion-3"
+      color="light"
+      tabindex="0"
+      type="button"
+    >
+      <div>
+        Phone icon Mock
+      </div>
+      <span
+        class="button-text emotion-0 emotion-1"
+      >
+        Call Now: 888-888-8888
+      </span>
+    </button>
+    <button
+      class="emotion-2 emotion-3"
+      color="light"
+      tabindex="0"
+      type="button"
+    >
+      <div>
+        QuestionAnswer icon Mock
+      </div>
+      <span
+        class="button-text emotion-0 emotion-1"
+      >
+        Chat with agent
+      </span>
+    </button>
+    <button
+      class="emotion-2 emotion-3"
+      color="light"
+      tabindex="0"
+      type="button"
+    >
+      <div>
+        Done icon Mock
+      </div>
+      <span
+        class="button-text emotion-0 emotion-1"
+      >
+        Check Availability
+      </span>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`CTABar StickyBar component should render 1`] = `
+.emotion-14 {
+  background-color: #0f6bc0;
+  color: #fff;
+  border-top: 5px solid;
+  width: 100%;
+  z-index: 3;
+}
+
+.emotion-14.original {
+  border: 0;
+}
+
+.emotion-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 8px 16px;
+  font: inherit;
+  color: #000;
+  background-color: #f4f5f6;
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-appearance: button;
+  box-shadow: 0 0.3rem 1rem 0 rgba(0,0,0,0.1);
+  color: #f4f5f6;
+  box-shadow: none;
+  background-color: transparent;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.emotion-2 > * {
+  pointer-events: none;
+}
+
+.emotion-2 .e1u83bah1 svg,
+.emotion-2 svg {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  fill: #000;
+  height: 16px;
+  width: 16px;
+}
+
+.emotion-2 .button-text {
+  margin-left: 8px;
+}
+
+.emotion-2:hover {
+  color: #000;
+  background-color: #e6e8eb;
+}
+
+.emotion-2:active {
+  color: #000;
+  background-color: #d8dcdf;
+}
+
+.emotion-2:disabled {
+  background-color: #cacfd4;
+  color: #5b636d;
+}
+
+.emotion-2 .e1u83bah1 svg,
+.emotion-2 svg {
+  fill: #f4f5f6;
+}
+
+.emotion-2:hover .e1u83bah1 svg,
+.emotion-2:hover svg {
+  fill: #000;
+}
+
+.emotion-2 .e1u83bah1 svg,
+.emotion-2 svg {
+  height: 24px;
+  width: 24px;
+}
+
+.emotion-2 .button-text {
+  margin-left: 12px;
+}
+
+.emotion-0 {
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+}
+
+@media all and (-ms-high-contrast:none),(-ms-high-contrast:active) {
+  .emotion-0 {
+    width: 100%;
+  }
+}
+
+.emotion-12 {
+  background-color: #fff;
+  color: #0f6bc0;
+  border-top: 5px solid;
+  width: 100%;
+  z-index: 3;
+}
+
+.emotion-12.original {
+  border: 0;
+}
+
+.emotion-32 {
+  -webkit-transform: translateY(100%);
+  -ms-transform: translateY(100%);
+  transform: translateY(100%);
+  z-index: 3;
+  position: fixed;
+  opacity: 0;
+  bottom: 0;
+  width: 100%;
+  -webkit-transition: -webkit-transform 0.5s cubic-bezier(1,0.05,0.17,1.09),opacity 0.5s cubic-bezier(1,0.05,0.17,1.09);
+  -webkit-transition: transform 0.5s cubic-bezier(1,0.05,0.17,1.09),opacity 0.5s cubic-bezier(1,0.05,0.17,1.09);
+  transition: transform 0.5s cubic-bezier(1,0.05,0.17,1.09),opacity 0.5s cubic-bezier(1,0.05,0.17,1.09);
+  padding: 0;
+}
+
+<div>
+  <div
+    class="original emotion-14 emotion-13"
+  >
+    <div
+      class="emotion-12 emotion-13"
+    >
+      <button
+        class="emotion-2 emotion-3"
+        color="light"
+        tabindex="0"
+        type="button"
+      >
+        <div>
+          Phone icon Mock
+        </div>
+        <span
+          class="button-text emotion-0 emotion-1"
+        >
+          Call Now: 888-888-8888
+        </span>
+      </button>
+      <button
+        class="emotion-2 emotion-3"
+        color="light"
+        tabindex="0"
+        type="button"
+      >
+        <div>
+          QuestionAnswer icon Mock
+        </div>
+        <span
+          class="button-text emotion-0 emotion-1"
+        >
+          Chat with agent
+        </span>
+      </button>
+      <button
+        class="emotion-2 emotion-3"
+        color="light"
+        tabindex="0"
+        type="button"
+      >
+        <div>
+          Done icon Mock
+        </div>
+        <span
+          class="button-text emotion-0 emotion-1"
+        >
+          Check Availability
+        </span>
+      </button>
+    </div>
+  </div>
+  <div
+    id="sticky-ref"
+  />
+  <div
+    class="emotion-32 emotion-33"
+    id="sticky-bar"
+  >
+    <div
+      class="sticky emotion-14 emotion-13"
+    >
+      <div
+        class="emotion-12 emotion-13"
+      >
+        <button
+          class="emotion-2 emotion-3"
+          color="light"
+          tabindex="0"
+          type="button"
+        >
+          <div>
+            Phone icon Mock
+          </div>
+          <span
+            class="button-text emotion-0 emotion-1"
+          >
+            Call Now: 888-888-8888
+          </span>
+        </button>
+        <button
+          class="emotion-2 emotion-3"
+          color="light"
+          tabindex="0"
+          type="button"
+        >
+          <div>
+            QuestionAnswer icon Mock
+          </div>
+          <span
+            class="button-text emotion-0 emotion-1"
+          >
+            Chat with agent
+          </span>
+        </button>
+        <button
+          class="emotion-2 emotion-3"
+          color="light"
+          tabindex="0"
+          type="button"
+        >
+          <div>
+            Done icon Mock
+          </div>
+          <span
+            class="button-text emotion-0 emotion-1"
+          >
+            Check Availability
+          </span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CTABar StickyBar component with isVisible prop should render 1`] = `
+.emotion-12 {
+  background-color: #0f6bc0;
+  color: #fff;
+  border-top: 5px solid;
+  width: 100%;
+  z-index: 3;
+}
+
+.emotion-12.original {
+  border: 0;
+}
+
+.emotion-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 8px 16px;
+  font: inherit;
+  color: #000;
+  background-color: #f4f5f6;
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-appearance: button;
+  box-shadow: 0 0.3rem 1rem 0 rgba(0,0,0,0.1);
+  color: #f4f5f6;
+  box-shadow: none;
+  background-color: transparent;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.emotion-2 > * {
+  pointer-events: none;
+}
+
+.emotion-2 .e1u83bah1 svg,
+.emotion-2 svg {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  fill: #000;
+  height: 16px;
+  width: 16px;
+}
+
+.emotion-2 .button-text {
+  margin-left: 8px;
+}
+
+.emotion-2:hover {
+  color: #000;
+  background-color: #e6e8eb;
+}
+
+.emotion-2:active {
+  color: #000;
+  background-color: #d8dcdf;
+}
+
+.emotion-2:disabled {
+  background-color: #cacfd4;
+  color: #5b636d;
+}
+
+.emotion-2 .e1u83bah1 svg,
+.emotion-2 svg {
+  fill: #f4f5f6;
+}
+
+.emotion-2:hover .e1u83bah1 svg,
+.emotion-2:hover svg {
+  fill: #000;
+}
+
+.emotion-2 .e1u83bah1 svg,
+.emotion-2 svg {
+  height: 24px;
+  width: 24px;
+}
+
+.emotion-2 .button-text {
+  margin-left: 12px;
+}
+
+.emotion-0 {
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+}
+
+@media all and (-ms-high-contrast:none),(-ms-high-contrast:active) {
+  .emotion-0 {
+    width: 100%;
+  }
+}
+
+.emotion-16 {
+  -webkit-transform: translateY(100%);
+  -ms-transform: translateY(100%);
+  transform: translateY(100%);
+  z-index: 3;
+  position: fixed;
+  opacity: 0;
+  bottom: 0;
+  width: 100%;
+  -webkit-transition: -webkit-transform 0.5s cubic-bezier(1,0.05,0.17,1.09),opacity 0.5s cubic-bezier(1,0.05,0.17,1.09);
+  -webkit-transition: transform 0.5s cubic-bezier(1,0.05,0.17,1.09),opacity 0.5s cubic-bezier(1,0.05,0.17,1.09);
+  transition: transform 0.5s cubic-bezier(1,0.05,0.17,1.09),opacity 0.5s cubic-bezier(1,0.05,0.17,1.09);
+  padding: 0;
+}
+
+<div>
+  <div
+    id="sticky-ref"
+  />
+  <div
+    class="emotion-16 emotion-17"
+    id="sticky-bar"
+  >
+    <div
+      class="sticky emotion-12 emotion-13"
+    >
+      <div
+        class="emotion-12 emotion-13"
+      >
+        <button
+          class="emotion-2 emotion-3"
+          color="light"
+          tabindex="0"
+          type="button"
+        >
+          <div>
+            Phone icon Mock
+          </div>
+          <span
+            class="button-text emotion-0 emotion-1"
+          >
+            Call Now: 888-888-8888
+          </span>
+        </button>
+        <button
+          class="emotion-2 emotion-3"
+          color="light"
+          tabindex="0"
+          type="button"
+        >
+          <div>
+            QuestionAnswer icon Mock
+          </div>
+          <span
+            class="button-text emotion-0 emotion-1"
+          >
+            Chat with agent
+          </span>
+        </button>
+        <button
+          class="emotion-2 emotion-3"
+          color="light"
+          tabindex="0"
+          type="button"
+        >
+          <div>
+            Done icon Mock
+          </div>
+          <span
+            class="button-text emotion-0 emotion-1"
+          >
+            Check Availability
+          </span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CTABar standardImplementation component should render 1`] = `
+.emotion-16 {
+  background-color: #0f6bc0;
+  color: #fff;
+  border-top: 5px solid;
+  width: 100%;
+  z-index: 3;
+}
+
+.emotion-16.original {
+  border: 0;
+}
+
+.emotion-36 {
+  -webkit-transform: translateY(100%);
+  -ms-transform: translateY(100%);
+  transform: translateY(100%);
+  z-index: 3;
+  position: fixed;
+  opacity: 0;
+  bottom: 0;
+  width: 100%;
+  -webkit-transition: -webkit-transform 0.5s cubic-bezier(1,0.05,0.17,1.09),opacity 0.5s cubic-bezier(1,0.05,0.17,1.09);
+  -webkit-transition: transform 0.5s cubic-bezier(1,0.05,0.17,1.09),opacity 0.5s cubic-bezier(1,0.05,0.17,1.09);
+  transition: transform 0.5s cubic-bezier(1,0.05,0.17,1.09),opacity 0.5s cubic-bezier(1,0.05,0.17,1.09);
+  padding: 0;
+}
+
+.emotion-14 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  margin: auto;
+}
+
+@media (min-width:768px) {
+  .emotion-14 {
+    padding: 8px;
+  }
+}
+
+.emotion-5 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-5:hover {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 8px 16px;
+  font: inherit;
+  color: #000;
+  background-color: #f4f5f6;
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-appearance: button;
+  box-shadow: 0 0.3rem 1rem 0 rgba(0,0,0,0.1);
+  color: #f4f5f6;
+  box-shadow: none;
+  background-color: transparent;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 2.75rem;
+  padding-right: 48px;
+}
+
+.emotion-3 > * {
+  pointer-events: none;
+}
+
+.emotion-3 .e1u83bah1 svg,
+.emotion-3 svg {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  fill: #000;
+  height: 16px;
+  width: 16px;
+}
+
+.emotion-3 .button-text {
+  margin-left: 8px;
+}
+
+.emotion-3:hover {
+  color: #000;
+  background-color: #e6e8eb;
+}
+
+.emotion-3:active {
+  color: #000;
+  background-color: #d8dcdf;
+}
+
+.emotion-3:disabled {
+  background-color: #cacfd4;
+  color: #5b636d;
+}
+
+.emotion-3 .e1u83bah1 svg,
+.emotion-3 svg {
+  fill: #f4f5f6;
+}
+
+.emotion-3:hover .e1u83bah1 svg,
+.emotion-3:hover svg {
+  fill: #000;
+}
+
+.emotion-3 .e1u83bah1 svg,
+.emotion-3 svg {
+  height: 32px;
+  width: 32px;
+}
+
+.emotion-3 .button-text {
+  margin-left: 16px;
+}
+
+@media (max-width:768px) {
+  .emotion-3 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 8px 8px;
+  }
+
+  .emotion-3 .button-text {
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+  }
+}
+
+.emotion-0 {
+  font-weight: 500;
+  font-size: calc(0.5555555555555556vw + 17.333333333333332px);
+  line-height: calc(1.1111111111111112vw + 18.666666666666668px);
+}
+
+@media (max-width:480px) {
+  .emotion-0 {
+    font-size: 20px;
+  }
+}
+
+@media (min-width:1200px) {
+  .emotion-0 {
+    font-size: 24px;
+  }
+}
+
+@media (max-width:480px) {
+  .emotion-0 {
+    line-height: 24px;
+  }
+}
+
+@media (min-width:1200px) {
+  .emotion-0 {
+    line-height: 32px;
+  }
+}
+
+@media all and (-ms-high-contrast:none),(-ms-high-contrast:active) {
+  .emotion-0 {
+    width: 100%;
+  }
+}
+
+<div>
+  <div
+    class="original emotion-16 emotion-17"
+  >
+    <div
+      class="emotion-14 emotion-15"
+    >
+      <a
+        class="emotion-5 emotion-6"
+        href="tel:1-555-555-5555"
+        style="margin-right: 5vw;"
+      >
+        <button
+          class="emotion-2 emotion-3 emotion-4"
+          color="light"
+          tabindex="0"
+          type="button"
+        >
+          <div>
+            Phone icon Mock
+          </div>
+          <span
+            class="button-text emotion-0 emotion-1"
+          >
+            Call: 
+            1-555-555-5555
+          </span>
+        </button>
+      </a>
+      <a
+        class="emotion-5 emotion-6"
+        href="/availability"
+        style="margin-left: 5vw;"
+      >
+        <button
+          class="emotion-2 emotion-3 emotion-4"
+          color="light"
+          tabindex="0"
+          type="button"
+        >
+          <div>
+            Done icon Mock
+          </div>
+          <span
+            class="button-text emotion-0 emotion-1"
+          >
+            Check Availability
+          </span>
+        </button>
+      </a>
+    </div>
+  </div>
+  <div
+    id="sticky-ref"
+  />
+  <div
+    class="emotion-36 emotion-37"
+    id="sticky-bar"
+  >
+    <div
+      class="sticky emotion-16 emotion-17"
+    >
+      <div
+        class="emotion-14 emotion-15"
+      >
+        <a
+          class="emotion-5 emotion-6"
+          href="tel:1-555-555-5555"
+          style="margin-right: 5vw;"
+        >
+          <button
+            class="emotion-2 emotion-3 emotion-4"
+            color="light"
+            tabindex="0"
+            type="button"
+          >
+            <div>
+              Phone icon Mock
+            </div>
+            <span
+              class="button-text emotion-0 emotion-1"
+            >
+              Call: 
+              1-555-555-5555
+            </span>
+          </button>
+        </a>
+        <a
+          class="emotion-5 emotion-6"
+          href="/availability"
+          style="margin-left: 5vw;"
+        >
+          <button
+            class="emotion-2 emotion-3 emotion-4"
+            color="light"
+            tabindex="0"
+            type="button"
+          >
+            <div>
+              Done icon Mock
+            </div>
+            <span
+              class="button-text emotion-0 emotion-1"
+            >
+              Check Availability
+            </span>
+          </button>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;

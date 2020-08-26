@@ -1,0 +1,203 @@
+import {
+  Story,
+  Meta,
+  Preview,
+  Props,
+  Anchor,
+} from "@storybook/addon-docs/blocks"
+import { withKnobs, text, boolean } from "@storybook/addon-knobs"
+
+import Typography from "../Typography"
+import Button from "../Button"
+import Link from "../Link"
+import SplitContent, { ticketID } from "."
+import { FLUID_IMAGE_DATA, FLUID_IMAGE_DATA_BOTTOM } from "./dummyData"
+import ComponentProgress from "../ComponentProgress"
+import { BUTTON } from "../utils/dataTrackingValues"
+
+import SplitContentImage from "../../images/contentful-stories/splitcontent-image-req.png"
+
+<Meta
+  title="Components|SplitContent"
+  component={SplitContent}
+  decorators={[
+    story => (
+      <>
+        <ComponentProgress ticketID={ticketID} />
+        {story()}
+      </>
+    ),
+  ]}
+/>
+
+# SplitContent
+
+<Preview>
+  <Story name="default" decorators={[withKnobs]}>
+    <SplitContent
+      prominent={boolean("Prominent background from theme", false)}
+      alignImageToBottom={boolean("Align image to bottom of section", false)}
+      image={FLUID_IMAGE_DATA}
+      heading={text("Heading", "H2 standard size headline")}
+      subheading={text("Subheading", "")}
+      mainContent={
+        <>
+          <Typography>
+            There is a lot of exciting stuff going on in the stars above us that
+            make astronomy so much fun. The truth is the universe is a
+            constantly changing, moving, some would say &quot;living&quot; thing
+            See what CenturyLink Services are in your area:{" "}
+            <Link to="/section-link"> Call Now</Link>
+          </Typography>
+          <Button primary data-tracking={BUTTON}>
+            Submit
+          </Button>
+        </>
+      }
+    />
+  </Story>
+</Preview>
+
+## Props
+
+<Props of={SplitContent} />
+
+## Automatic alternating
+
+<Preview>
+  <Story name="automatic alternating">
+    <div>
+      <SplitContent
+        image={FLUID_IMAGE_DATA}
+        heading="Scroll down, please."
+        mainContent={
+          <>
+            <Typography>
+              There is a lot of exciting stuff going on in the stars above us
+              that make astronomy so much fun. The truth is the universe is a
+              constantly changing, moving, some would say &quot;living&quot;
+              thing See what CenturyLink Services are in your area:{" "}
+              <Link to="/section-link"> Call Now</Link>
+            </Typography>
+          </>
+        }
+      />
+      <SplitContent
+        prominent
+        image={FLUID_IMAGE_DATA}
+        heading="Auto-alternated section"
+        subheading="with prominent background from the theme"
+        mainContent={
+          <>
+            <Typography>
+              Because it would be very cumbersome in the CMS Editing Interface
+              to have to set which side your picture and content are on whenever
+              you drag items around, the system auto alternates side by side
+              content. In this instance the `prominent` property has been added
+              to show the boundaries between sections, but alternating
+              background colors are usually set within the global styles of a
+              site&apos;s theme.
+            </Typography>
+            <Button data-tracking={BUTTON}>Submit</Button>
+          </>
+        }
+      />
+    </div>
+  </Story>
+</Preview>
+
+## Align image to bottom for cropped images
+
+<Preview>
+  <Story name="align image bottom for cropped images">
+    <>
+      <SplitContent
+        image={FLUID_IMAGE_DATA_BOTTOM}
+        heading="Meet Ryan"
+        alignImageToBottom
+        mainContent={
+          <>
+            <Typography>
+              Ryan has no legs below the thigh, and so we had to align him to
+              the bottom of this section, which requires the padding of the
+              entire section to be removed from the bottom and placed within
+              this content area. Merely passing `alignImageToBottom` to this
+              component will take care of all that work. It is quite lovely,
+              when you think about it.
+            </Typography>
+            <Typography>
+              Clearlink has plans that ensure your monthly interests are met
+              with the level of customer satisfaction you believe you deserve.
+              Ryan gave his hard earned legs to ensure you would live a long and
+              fullfilling life, as all team players would in his circumstance.
+            </Typography>
+            <Button feature data-tracking={BUTTON}>
+              Donate to Ryan
+            </Button>
+          </>
+        }
+      />
+      <SplitContent
+        prominent
+        image={FLUID_IMAGE_DATA}
+        heading="H2 standard size headline"
+        mainContent={
+          <>
+            <Typography>
+              There is a lot of exciting stuff going on in the stars above us
+              that make astronomy so much fun. The truth is the universe is a
+              constantly changing, moving, some would say &quot;living&quot;
+              thing because you just never know what you are going to see on any
+              given night of stargazing.
+            </Typography>
+            <Button data-tracking={BUTTON}>Submit</Button>
+          </>
+        }
+      />
+    </>
+  </Story>
+</Preview>
+
+# SplitContent
+
+<Preview>
+  <Story name="prominent" decorators={[withKnobs]}>
+    <SplitContent
+      backgroundColor="Prominent"
+      alignImageToBottom={boolean("Align image to bottom of section", false)}
+      image={FLUID_IMAGE_DATA}
+      heading={text("Heading", "H2 standard size headline")}
+      subheading={text("Subheading", "")}
+      mainContent={
+        <>
+          <Typography>
+            There is a lot of exciting stuff going on in the stars above us that
+            make astronomy so much fun. The truth is the universe is a
+            constantly changing, moving, some would say &quot;living&quot; thing
+            See what CenturyLink Services are in your area:{" "}
+            <Link to="/section-link"> Call Now</Link>
+          </Typography>
+          <Button primary>Submit</Button>
+        </>
+      }
+    />
+  </Story>
+</Preview>
+
+## Contentful
+
+<Preview>
+  <Story name="contentful">
+    <>
+      <Typography>
+        In a "Section" entry, select "Split Content" from the "type" selector.
+        The entire section will become a SplitContent component.{" "}
+        <strong>
+          "Identifier", "Main Content" and "Featured Image" fields are required
+          for this entry.
+        </strong>
+      </Typography>
+      <img src={SplitContentImage} alt="SplitContent in contentful" />
+    </>
+  </Story>
+</Preview>

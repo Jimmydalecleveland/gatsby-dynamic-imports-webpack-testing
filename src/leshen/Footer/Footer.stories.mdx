@@ -1,0 +1,39 @@
+import { Story, Meta, Preview, Props, Anchor } from '@storybook/addon-docs/blocks'
+
+import Footer, { ticketID } from '.'
+import { FOOTER_NAV_ITEMS, DISCLAIMERS } from './dummyData'
+import logoForDark from './logo-for-dark.svg'
+import logo from './logo.svg'
+
+import ComponentProgress from '../ComponentProgress'
+
+<Meta title='Components|Footer' component={Footer} decorators={[(story) => <><ComponentProgress ticketID={ticketID} />{story()}</>]} />
+
+# Footer
+
+<Preview>
+  <Story name="default">
+    <Footer
+      logo={logo}
+      navData={FOOTER_NAV_ITEMS}
+      disclaimers={DISCLAIMERS}
+      siteName="Leshen"
+    />
+  </Story>
+</Preview>
+
+## Props
+<Props of={Footer} />
+
+<Preview>
+  <Story name="dark">
+    <Footer
+      dark
+      logo={logoForDark}
+      navData={FOOTER_NAV_ITEMS}
+      disclaimers={DISCLAIMERS}
+      siteName="Leshen"
+    />
+  </Story>
+</Preview>
+

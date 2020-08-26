@@ -1,0 +1,101 @@
+import { Story, Meta, Preview, Props, Anchor } from '@storybook/addon-docs/blocks'
+
+import Section, { ticketID } from '.'
+import ComponentProgress from '../ComponentProgress'
+import Typography from '../Typography'
+import SectionImage from '../../images/contentful-stories/section.png'
+import Link from '../Link'
+import Button from '../Button'
+import { SVG_IMAGE_DATA } from './dummyData'
+import Img from '../Image'
+
+<Meta title='Components|Section' component={Section} decorators={[(story) => <><ComponentProgress ticketID={ticketID} />{story()}</>]} />
+
+# Section
+<Preview>
+  <Story name="with h1">
+    <Section>
+      <Typography variant="h1">A Section adds the default padding of the theme.</Typography>
+         <Typography>
+            CenturyLink Price for Life Internet Plans ensure your monthly
+            internet rate stays the same when you remain on the same internet
+            plan at the same address. No contract, no rate hikes.
+          </Typography>
+          <Typography>
+            See what CenturyLink Services are in your area: <Link to="/section-link"> Call Now</Link>
+          </Typography>
+          <Button primary>Submit</Button>
+    </Section>
+  </Story>
+</Preview>
+
+## Props
+<Props of={Section} />
+
+# Section
+<Preview>
+  <Story name="with links and buttons">
+    <Section>
+       <Typography variant="h3">A Section adds the default padding of the theme.</Typography>
+       <Typography>
+            CenturyLink Price for Life Internet Plans ensure your monthly
+            internet rate stays the same when you remain on the same internet
+            plan at the same address. No contract, no rate hikes.
+          </Typography>
+          <Typography>
+            See what CenturyLink Services are in your area: <Link to="/section-link"> Call Now</Link>
+          </Typography>
+          <Button primary>Submit</Button>
+    </Section>
+  </Story>
+</Preview>
+
+# Section
+<Preview>
+  <Story name="Prominent background with links and buttons">
+    <Section backgroundColor="Prominent">
+       <Typography variant="h3">A Section adds the default padding of the theme.</Typography>
+       <Typography>
+            CenturyLink Price for Life Internet Plans ensure your monthly
+            internet rate stays the same when you remain on the same internet
+            plan at the same address. No contract, no rate hikes.
+          </Typography>
+          <Typography>
+            See what CenturyLink Services are in your area: <Link to="/section-link"> Call Now</Link>
+          </Typography>
+          <Button primary>Submit</Button>
+    </Section>
+  </Story>
+</Preview>
+
+## Contentful
+<Preview>
+  <Story name="contentful">
+    <>
+      <Typography>Add "Sections" at the bottom of a page.</Typography>
+      <img src={SectionImage} alt="Section" />
+    </>
+  </Story>
+</Preview>
+
+
+## Section with image
+
+<Preview>
+  <Story name="SVG image at top">
+    <Section backgroundColor="Prominent">
+      <Img data={SVG_IMAGE_DATA} />
+       <Typography variant="h3">A Section adds the default padding of the theme.</Typography>
+       <Typography>
+            CenturyLink Price for Life Internet Plans ensure your monthly
+            internet rate stays the same when you remain on the same internet
+            plan at the same address. No contract, no rate hikes.
+          </Typography>
+          <Typography>
+            See what CenturyLink Services are in your area: <Link to="/section-link"> Call Now</Link>
+          </Typography>
+          <Button primary>Submit</Button>
+    </Section>
+  </Story>
+</Preview>
+

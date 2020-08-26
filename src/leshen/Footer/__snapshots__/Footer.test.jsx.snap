@@ -1,0 +1,473 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer Footer should render 1`] = `
+.emotion-1 {
+  padding-left: calc(2.2222222222222223vw + 21.333333333333332px);
+  padding-right: calc(2.2222222222222223vw + 21.333333333333332px);
+  padding-top: calc(7.777777777777778vw + -5.333333333333333px);
+  padding-bottom: calc(7.777777777777778vw + -5.333333333333333px);
+  position: relative;
+  padding-top: 32px !important;
+  padding-bottom: 32px !important;
+  border-bottom: 1px solid #e6e8eb;
+}
+
+@media (max-width:480px) {
+  .emotion-1 {
+    padding-left: 32px;
+  }
+}
+
+@media (min-width:1200px) {
+  .emotion-1 {
+    padding-left: 48px;
+  }
+}
+
+@media (max-width:480px) {
+  .emotion-1 {
+    padding-right: 32px;
+  }
+}
+
+@media (min-width:1200px) {
+  .emotion-1 {
+    padding-right: 48px;
+  }
+}
+
+@media (min-width:1288px) {
+  .emotion-1 {
+    padding-right: calc((100% - 1200px) / 2);
+    padding-left: calc((100% - 1200px) / 2);
+  }
+}
+
+@media (max-width:480px) {
+  .emotion-1 {
+    padding-top: 32px;
+  }
+}
+
+@media (min-width:1200px) {
+  .emotion-1 {
+    padding-top: 88px;
+  }
+}
+
+@media (max-width:480px) {
+  .emotion-1 {
+    padding-bottom: 32px;
+  }
+}
+
+@media (min-width:1200px) {
+  .emotion-1 {
+    padding-bottom: 88px;
+  }
+}
+
+.emotion-1 .logo {
+  display: inline-block;
+  max-width: 200px;
+}
+
+.emotion-24 {
+  padding-left: calc(2.2222222222222223vw + 21.333333333333332px);
+  padding-right: calc(2.2222222222222223vw + 21.333333333333332px);
+  padding-top: calc(7.777777777777778vw + -5.333333333333333px);
+  padding-bottom: calc(7.777777777777778vw + -5.333333333333333px);
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(132px,1fr));
+  grid-row-gap: 24px;
+  grid-column-gap: 24px;
+  padding-top: 32px !important;
+  padding-bottom: 32px !important;
+}
+
+@media (max-width:480px) {
+  .emotion-24 {
+    padding-left: 32px;
+  }
+}
+
+@media (min-width:1200px) {
+  .emotion-24 {
+    padding-left: 48px;
+  }
+}
+
+@media (max-width:480px) {
+  .emotion-24 {
+    padding-right: 32px;
+  }
+}
+
+@media (min-width:1200px) {
+  .emotion-24 {
+    padding-right: 48px;
+  }
+}
+
+@media (min-width:1288px) {
+  .emotion-24 {
+    padding-right: calc((100% - 1200px) / 2);
+    padding-left: calc((100% - 1200px) / 2);
+  }
+}
+
+@media (max-width:480px) {
+  .emotion-24 {
+    padding-top: 32px;
+  }
+}
+
+@media (min-width:1200px) {
+  .emotion-24 {
+    padding-top: 88px;
+  }
+}
+
+@media (max-width:480px) {
+  .emotion-24 {
+    padding-bottom: 32px;
+  }
+}
+
+@media (min-width:1200px) {
+  .emotion-24 {
+    padding-bottom: 88px;
+  }
+}
+
+.emotion-6 a {
+  display: block;
+  padding-bottom: 1em;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-6 a:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+@media (min-width:768px) {
+  .emotion-6 {
+    margin-bottom: 0;
+  }
+}
+
+.emotion-4 {
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  margin-top: 0;
+  font-weight: 500;
+}
+
+@media all and (-ms-high-contrast:none),(-ms-high-contrast:active) {
+  .emotion-4 {
+    width: 100%;
+  }
+}
+
+.emotion-33 {
+  padding-left: calc(2.2222222222222223vw + 21.333333333333332px);
+  padding-right: calc(2.2222222222222223vw + 21.333333333333332px);
+  padding-top: calc(7.777777777777778vw + -5.333333333333333px);
+  padding-bottom: calc(7.777777777777778vw + -5.333333333333333px);
+  position: relative;
+  padding-top: 32px !important;
+  padding-bottom: 32px !important;
+  background-color: #e6e8eb;
+}
+
+@media (max-width:480px) {
+  .emotion-33 {
+    padding-left: 32px;
+  }
+}
+
+@media (min-width:1200px) {
+  .emotion-33 {
+    padding-left: 48px;
+  }
+}
+
+@media (max-width:480px) {
+  .emotion-33 {
+    padding-right: 32px;
+  }
+}
+
+@media (min-width:1200px) {
+  .emotion-33 {
+    padding-right: 48px;
+  }
+}
+
+@media (min-width:1288px) {
+  .emotion-33 {
+    padding-right: calc((100% - 1200px) / 2);
+    padding-left: calc((100% - 1200px) / 2);
+  }
+}
+
+@media (max-width:480px) {
+  .emotion-33 {
+    padding-top: 32px;
+  }
+}
+
+@media (min-width:1200px) {
+  .emotion-33 {
+    padding-top: 88px;
+  }
+}
+
+@media (max-width:480px) {
+  .emotion-33 {
+    padding-bottom: 32px;
+  }
+}
+
+@media (min-width:1200px) {
+  .emotion-33 {
+    padding-bottom: 88px;
+  }
+}
+
+.emotion-26 {
+  font-size: 0.625rem;
+  line-height: 0.75rem;
+  opacity: 0.8;
+}
+
+@media all and (-ms-high-contrast:none),(-ms-high-contrast:active) {
+  .emotion-26 {
+    width: 100%;
+  }
+}
+
+<footer>
+  <section
+    class="emotion-0 emotion-1 emotion-2"
+  >
+    <div>
+      I am a logo
+    </div>
+  </section>
+  <section
+    class="emotion-23 emotion-24 emotion-2"
+  >
+    <nav
+      class="emotion-6 emotion-7"
+    >
+      <p
+        class="emotion-3 emotion-4 emotion-5"
+      >
+        Services
+      </p>
+      <a
+        data-tracking="footer__navigation-item"
+        href="#"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        Clearlink Internet
+      </a>
+      <a
+        data-tracking="footer__navigation-item"
+        href="#"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        FiOS Internet
+      </a>
+      <a
+        data-tracking="footer__navigation-item"
+        href="#"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        Bundles
+      </a>
+      <a
+        data-tracking="footer__navigation-item"
+        href="#"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        Frontier TV
+      </a>
+      <a
+        data-tracking="footer__navigation-item"
+        href="#"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        Dish TV
+      </a>
+      <a
+        data-tracking="footer__navigation-item"
+        href="#"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        Clearlink Phone
+      </a>
+      <a
+        data-tracking="footer__navigation-item"
+        href="#"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        Business
+      </a>
+    </nav>
+    <nav
+      class="emotion-6 emotion-7"
+    >
+      <p
+        class="emotion-3 emotion-4 emotion-5"
+      >
+        About
+      </p>
+      <a
+        data-tracking="footer__navigation-item"
+        href="#"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        Store Locations
+      </a>
+      <a
+        data-tracking="footer__navigation-item"
+        href="#"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        Media Center
+      </a>
+      <a
+        data-tracking="footer__navigation-item"
+        href="#"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        Scholarship
+      </a>
+      <a
+        data-tracking="footer__navigation-item"
+        href="#"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        Contact Us
+      </a>
+    </nav>
+    <nav
+      class="emotion-6 emotion-7"
+    >
+      <p
+        class="emotion-3 emotion-4 emotion-5"
+      >
+        Español
+      </p>
+      <a
+        data-tracking="footer__navigation-item"
+        href="#"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        Internet
+      </a>
+      <a
+        data-tracking="footer__navigation-item"
+        href="#"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        FiOS Internet
+      </a>
+      <a
+        data-tracking="footer__navigation-item"
+        href="#"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        DishLATINO
+      </a>
+      <a
+        data-tracking="footer__navigation-item"
+        href="#"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        Teléfono
+      </a>
+      <a
+        data-tracking="footer__navigation-item"
+        href="#"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        Paquetes
+      </a>
+    </nav>
+    <nav
+      class="emotion-6 emotion-7"
+    >
+      <p
+        class="emotion-3 emotion-4 emotion-5"
+      >
+        Terms
+      </p>
+      <a
+        data-tracking="footer__navigation-item"
+        href="#"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        Legal
+      </a>
+      <a
+        data-tracking="footer__navigation-item"
+        href="#"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        Privacy Policy
+      </a>
+      <a
+        data-tracking="footer__navigation-item"
+        href="#"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        Terms of Service
+      </a>
+    </nav>
+  </section>
+  <section
+    class="emotion-32 emotion-33 emotion-2"
+  >
+    <p
+      class="emotion-26 emotion-5"
+    >
+      ©2019 Internet Service Partners. All Rights Reserved. The name CenturyLink and the pathways logo are trademarks of CenturyLink.
+    </p>
+    <p
+      class="emotion-26 emotion-5"
+    >
+      *Geographic and service restrictions apply to AT&T services. Call to see if you qualify. Fiber optics may apply to all or part of the network, depending on your location.
+    </p>
+    <p
+      class="emotion-26 emotion-5"
+    >
+      © 2019 AT&T Intellectual Property. AT&T, the AT&T logo and all other AT&T marks contained herein are trademarks of AT&T Intellectual Property and/or AT&T affiliated companies. All rights reserved. Subsidiaries and affiliates of AT&T Inc. provide products and services under the AT&T brand.
+    </p>
+  </section>
+</footer>
+`;

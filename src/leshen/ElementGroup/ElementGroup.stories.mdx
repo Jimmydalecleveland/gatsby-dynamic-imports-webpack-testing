@@ -1,0 +1,43 @@
+import { Story, Meta, Preview, Props, Anchor } from '@storybook/addon-docs/blocks'
+
+import ElementGroup, { ticketID } from '.'
+import Button from '../Button'
+import ComponentProgress from '../ComponentProgress'
+
+<Meta title='Components|ElementGroup' component={ElementGroup} decorators={[(story) => <><ComponentProgress ticketID={ticketID} />{story()}</>]} />
+
+# ElementGroup
+Takes input and button children and styles them so they fit snuggly together.
+<Preview>
+  <Story name="basic">
+    <ElementGroup>
+      <input type="text" placeholder="Input" />
+      <Button>Search</Button>
+    </ElementGroup>
+  </Story>
+</Preview>
+
+## Props
+<Props of={ElementGroup} />
+
+## Double Capped
+<Preview>
+  <Story name="double capped">
+    <ElementGroup>
+      <Button>Add</Button>
+      <input type="text" placeholder=". . ." />
+      <Button>Subtract</Button>
+    </ElementGroup>
+  </Story>
+</Preview>
+
+## Multiple Buttons
+<Preview>
+  <Story name="multiple buttons">
+    <ElementGroup>
+      <input type="text" placeholder="Input" />
+      <Button color="dark">Cancel</Button>
+      <Button color="primary">Accept</Button>
+    </ElementGroup>
+  </Story>
+</Preview>

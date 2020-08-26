@@ -1,30 +1,30 @@
 import React from "react"
-import CHANNEL_LINEUP_DATA from "./leshen/ChannelLineup/dummyData"
-import { PACKAGE_DATA } from "./leshen/PackageProvider/dummyData"
+import CHANNEL_LINEUP_DATA from "../leshen/ChannelLineup/dummyData"
+import { PACKAGE_DATA } from "../leshen/PackageProvider/dummyData"
 import {
   defaultTemplatePrimary,
   topBarItems,
   footerNavItems,
-} from "./leshen/navigation.yml"
-import { CRUMB_DATA } from "./leshen/Breadcrumbs/dummyData"
-import { FLUID_IMAGE_DATA } from "./leshen/Hero/dummyData"
+} from "../leshen/navigation.yml"
+import { CRUMB_DATA } from "../leshen/Breadcrumbs/dummyData"
+import { FLUID_IMAGE_DATA } from "../leshen/Hero/dummyData"
 
-import Button from "./leshen/Button"
-import Typography from "./leshen/Typography"
-import Accordion from "./leshen/Accordion/AccordionDemo"
-import ChannelLineup from "./leshen/ChannelLineup"
-import Billboard from "./leshen/Billboard"
-import Breadcrumbs from "./leshen/Breadcrumbs"
-import CTABar from "./leshen/CTABar"
-import Header from "./leshen/Header"
-import Footer from "./leshen/Footer"
-import Hero from "./leshen/Hero"
-import List from "./leshen/List"
-import LinkButton from "./leshen/LinkButton"
-import PackageCard from "./leshen/PackageCard"
-import Pullquote from "./leshen/Pullquote"
-import SplitContent from "./leshen/SplitContent"
-import VariableContent from "./leshen/VariableContent"
+import Button from "../leshen/Button"
+import Typography from "../leshen/Typography"
+import Accordion from "../leshen/Accordion/AccordionDemo"
+import ChannelLineup from "../leshen/ChannelLineup"
+import Billboard from "../leshen/Billboard"
+import Breadcrumbs from "../leshen/Breadcrumbs"
+import CTABar from "../leshen/CTABar"
+import Header from "../leshen/Header"
+import Footer from "../leshen/Footer"
+import Hero from "../leshen/Hero"
+import List from "../leshen/List"
+import LinkButton from "../leshen/LinkButton"
+import PackageCard from "../leshen/PackageCard"
+import Pullquote from "../leshen/Pullquote"
+import SplitContent from "../leshen/SplitContent"
+import VariableContent from "../leshen/VariableContent"
 
 const NotCreated = () => (
   <div>
@@ -60,6 +60,7 @@ const NotCreated = () => (
       <Billboard />
       <List />
       <LinkButton>Link button</LinkButton>
+      <Accordion />
       <Pullquote />
       <SplitContent />
       <VariableContent />

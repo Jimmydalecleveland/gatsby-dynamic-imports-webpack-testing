@@ -1,5 +1,4 @@
 import React from "react"
-import loadable from "@loadable/component"
 
 import CHANNEL_LINEUP_DATA from "./leshen/ChannelLineup/dummyData"
 import { PACKAGE_DATA } from "./leshen/PackageProvider/dummyData"
@@ -11,29 +10,29 @@ import {
 import { CRUMB_DATA } from "./leshen/Breadcrumbs/dummyData"
 import { FLUID_IMAGE_DATA } from "./leshen/Hero/dummyData"
 
-const Alpha = loadable(() => import("./components/Alpha.js"))
-const Bravo = loadable(() => import("./components/Bravo"))
-const Charlie = loadable(() => import("./components/Charlie"))
-const Delta = loadable(() => import("./components/Delta.js"))
-const Echo = loadable(() => import("./components/Echo"))
-const Foxtrot = loadable(() => import("./components/Foxtrot"))
+import Alpha from "./components/Alpha.js"
+import Bravo from "./components/Bravo"
+import Charlie from "./components/Charlie"
+import Delta from "./components/Delta.js"
+import Echo from "./components/Echo"
+import Foxtrot from "./components/Foxtrot"
 
-const Button = loadable(() => import("./leshen/Button"))
-const Typography = loadable(() => import("./leshen/Typography"))
-const Accordion = loadable(() => import("./leshen/Accordion/AccordionDemo"))
-const ChannelLineup = loadable(() => import("./leshen/ChannelLineup"))
-const Billboard = loadable(() => import("./leshen/Billboard"))
-const Breadcrumbs = loadable(() => import("./leshen/Breadcrumbs"))
-const CTABar = loadable(() => import("./leshen/CTABar"))
-const Header = loadable(() => import("./leshen/Header"))
-const Footer = loadable(() => import("./leshen/Footer"))
-const Hero = loadable(() => import("./leshen/Hero"))
-const List = loadable(() => import("./leshen/List"))
-const LinkButton = loadable(() => import("./leshen/LinkButton"))
-const PackageCard = loadable(() => import("./leshen/PackageCard"))
-const Pullquote = loadable(() => import("./leshen/Pullquote"))
-const SplitContent = loadable(() => import("./leshen/SplitContent"))
-const VariableContent = loadable(() => import("./leshen/VariableContent"))
+import Button from "./leshen/Button"
+import Typography from "./leshen/Typography"
+import Accordion from "./leshen/Accordion/AccordionDemo"
+import ChannelLineup from "./leshen/ChannelLineup"
+import Billboard from "./leshen/Billboard"
+import Breadcrumbs from "./leshen/Breadcrumbs"
+import CTABar from "./leshen/CTABar"
+import Header from "./leshen/Header"
+import Footer from "./leshen/Footer"
+import Hero from "./leshen/Hero"
+import List from "./leshen/List"
+import LinkButton from "./leshen/LinkButton"
+import PackageCard from "./leshen/PackageCard"
+import Pullquote from "./leshen/Pullquote"
+import SplitContent from "./leshen/SplitContent"
+import VariableContent from "./leshen/VariableContent"
 
 export const determineComponent = ({ id, name, children }) => {
   let Component

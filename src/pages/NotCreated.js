@@ -9,6 +9,13 @@ import {
 import { CRUMB_DATA } from "../leshen/Breadcrumbs/dummyData"
 import { FLUID_IMAGE_DATA } from "../leshen/Hero/dummyData"
 
+import Alpha from "../components/Alpha.js"
+import Bravo from "../components/Bravo"
+import Charlie from "../components/Charlie"
+import Delta from "../components/Delta.js"
+import Echo from "../components/Echo"
+import Foxtrot from "../components/Foxtrot"
+
 import Button from "../leshen/Button"
 import Typography from "../leshen/Typography"
 import Accordion from "../leshen/Accordion/AccordionDemo"
@@ -64,6 +71,12 @@ const NotCreated = () => (
       <Pullquote />
       <SplitContent />
       <VariableContent />
+      <Alpha />
+      <Bravo />
+      <Charlie />
+      <Delta />
+      <Echo />
+      <Foxtrot />
 
       <ChannelLineup data={CHANNEL_LINEUP_DATA} />
     </main>

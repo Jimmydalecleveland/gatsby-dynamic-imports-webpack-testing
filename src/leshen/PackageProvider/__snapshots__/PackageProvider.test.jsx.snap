@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PackageProvider PackageProvider should render 1`] = `
+.emotion-0 {
+  font-weight: 500;
+  font-size: calc(0.5555555555555556vw + 17.333333333333332px);
+  line-height: calc(1.1111111111111112vw + 18.666666666666668px);
+}
+
+@media (max-width:480px) {
+  .emotion-0 {
+    font-size: 20px;
+  }
+}
+
+@media (min-width:1200px) {
+  .emotion-0 {
+    font-size: 24px;
+  }
+}
+
+@media (max-width:480px) {
+  .emotion-0 {
+    line-height: 24px;
+  }
+}
+
+@media (min-width:1200px) {
+  .emotion-0 {
+    line-height: 32px;
+  }
+}
+
+@media all and (-ms-high-contrast:none),(-ms-high-contrast:active) {
+  .emotion-0 {
+    width: 100%;
+  }
+}
+
+<h5
+  class="title emotion-0 emotion-1"
+>
+  DIRECTV® Ultimate All-Included + INTERNET + HOME PHONE
+</h5>
+`;

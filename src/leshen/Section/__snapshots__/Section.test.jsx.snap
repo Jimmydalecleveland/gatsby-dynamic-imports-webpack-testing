@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Section Section should render 1`] = `
+.emotion-0 {
+  padding-left: calc(2.2222222222222223vw + 21.333333333333332px);
+  padding-right: calc(2.2222222222222223vw + 21.333333333333332px);
+  padding-top: calc(7.777777777777778vw + -5.333333333333333px);
+  padding-bottom: calc(7.777777777777778vw + -5.333333333333333px);
+  position: relative;
+}
+
+@media (max-width:480px) {
+  .emotion-0 {
+    padding-left: 32px;
+  }
+}
+
+@media (min-width:1200px) {
+  .emotion-0 {
+    padding-left: 48px;
+  }
+}
+
+@media (max-width:480px) {
+  .emotion-0 {
+    padding-right: 32px;
+  }
+}
+
+@media (min-width:1200px) {
+  .emotion-0 {
+    padding-right: 48px;
+  }
+}
+
+@media (min-width:1288px) {
+  .emotion-0 {
+    padding-right: calc((100% - 1200px) / 2);
+    padding-left: calc((100% - 1200px) / 2);
+  }
+}
+
+@media (max-width:480px) {
+  .emotion-0 {
+    padding-top: 32px;
+  }
+}
+
+@media (min-width:1200px) {
+  .emotion-0 {
+    padding-top: 88px;
+  }
+}
+
+@media (max-width:480px) {
+  .emotion-0 {
+    padding-bottom: 32px;
+  }
+}
+
+@media (min-width:1200px) {
+  .emotion-0 {
+    padding-bottom: 88px;
+  }
+}
+
+<section
+  class="emotion-0 emotion-1"
+/>
+`;

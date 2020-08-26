@@ -1,0 +1,115 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Link Link should render 1`] = `
+.emotion-4 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.emotion-4 > button {
+  margin: 0;
+}
+
+.emotion-4 > button:first-child {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.emotion-4 > button:last-child {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.emotion-4 > button:not(:first-child):not(:last-child) {
+  border-radius: 0;
+}
+
+.emotion-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 8px 16px;
+  font: inherit;
+  color: #fff;
+  background-color: #0f6bc0;
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-appearance: button;
+  box-shadow: 0 0.3rem 1rem 0 rgba(0,0,0,0.1);
+}
+
+.emotion-2 > * {
+  pointer-events: none;
+}
+
+.emotion-2 .e1u83bah1 svg,
+.emotion-2 svg {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  fill: #fff;
+  height: 16px;
+  width: 16px;
+}
+
+.emotion-2:hover {
+  color: #fff;
+  background-color: #125b9f;
+}
+
+.emotion-2:active {
+  color: #fff;
+  background-color: #134b7f;
+}
+
+.emotion-2:disabled {
+  background-color: #cacfd4;
+  color: #5b636d;
+}
+
+.emotion-0 {
+  font-size: 1rem;
+  line-height: 1.375rem;
+}
+
+@media all and (-ms-high-contrast:none),(-ms-high-contrast:active) {
+  .emotion-0 {
+    width: 100%;
+  }
+}
+
+<div
+  class="emotion-4 emotion-5"
+>
+  <input
+    placeholder="Input"
+    type="text"
+  />
+  <button
+    class="emotion-2 emotion-3"
+    color="primary"
+    tabindex="0"
+    type="button"
+  >
+    <span
+      class="button-text emotion-0 emotion-1"
+    >
+      Search
+    </span>
+  </button>
+</div>
+`;

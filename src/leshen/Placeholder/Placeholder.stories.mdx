@@ -1,0 +1,45 @@
+import { Story, Meta, Preview, Props, Anchor } from '@storybook/addon-docs/blocks'
+
+import Placeholder, { ticketID } from '.'
+import Section from '../Section'
+import Typography from '../Typography'
+import ComponentProgress from '../ComponentProgress'
+
+<Meta title='Components|Placeholder' component={Placeholder} decorators={[(story) => <><ComponentProgress ticketID={ticketID} />{story()}</>]} />
+
+# Placeholder
+<Preview>
+  <Story name="default">
+    <Section>
+      <Placeholder>
+        <Typography variant="small">Notice</Typography>
+        <Typography>This is a quick notification for you to read</Typography>
+      </Placeholder>
+    </Section>
+  </Story>
+</Preview>
+
+## Props
+<Props of={Placeholder} />
+
+<Preview>
+  <Story name="warning">
+    <Section>
+      <Placeholder type="warning">
+        <Typography variant="small">Notice</Typography>
+        <Typography>This is a quick notification for you to read</Typography>
+      </Placeholder>
+    </Section>
+  </Story>
+</Preview>
+
+<Preview>
+  <Story name="error">
+    <Section>
+      <Placeholder type="error">
+        <Typography variant="small">Notice</Typography>
+        <Typography>This is a quick notification for you to read</Typography>
+      </Placeholder>
+    </Section>
+  </Story>
+</Preview>

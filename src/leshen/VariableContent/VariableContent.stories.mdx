@@ -1,0 +1,133 @@
+import { Story, Meta, Preview, Props, Anchor } from '@storybook/addon-docs/blocks'
+
+import Typography from '../Typography'
+import Button from '../Button'
+import Columns from '../Columns'
+import Column from '../Columns/Column'
+import Link from '../Link'
+import VariableContent, { ticketID } from '.'
+import ComponentProgress from '../ComponentProgress'
+
+<Meta title='Components|VariableContent' component={VariableContent} decorators={[(story) => <><ComponentProgress ticketID={ticketID} />{story()}</>]} />
+
+# VariableContent
+<Preview>
+  <Story name="default">
+    <div>
+      <VariableContent
+        heading="A super heading"
+        subheading="A great subheading"
+        centeredContent
+        mainContent={
+          <>
+            <Typography>
+              CenturyLink Price for Life Internet Plans ensure your monthly
+              internet rate stays the same when you remain on the same internet
+              plan at the same address. No contract, no rate hikes.
+            </Typography>
+            <Typography>
+              See what CenturyLink Services are in your area:
+            </Typography>
+            <Typography>
+             See what CenturyLink Services are in your area: <Link to="/section-link"> Call Now</Link>
+            </Typography>
+          </>
+        }
+      />
+      <VariableContent
+        mainContent={
+          <>
+            <Typography variant="h2">A very basic Section</Typography>
+            <Typography>
+              Natoque a etiam egestas parturient enim cum semper litora lacinia
+              habitant a a praesent. Natoque a etiam egestas parturient enim cum
+            </Typography>
+          </>
+        }
+      />
+    </div>
+  </Story>
+</Preview>
+
+## Props
+<Props of={VariableContent} />
+
+## with Columns
+<Preview>
+  <Story name="with Columns">
+    <VariableContent
+      heading="A super heading"
+      subheading="A great subheading"
+      mainContent={
+        <>
+          <Typography>
+            CenturyLink Price for Life Internet Plans ensure your monthly
+            internet rate stays the same when you remain on the same internet
+            plan at the same address. No contract, no rate hikes.
+          </Typography>
+          <Typography>
+            See what CenturyLink Services are in your area:
+          </Typography>
+        </>
+      }
+    >
+      <Columns>
+        <Column>
+          <Typography variant="h3">Column Heading</Typography>
+          <Typography>
+            Internet rate stays the same when you remain on the same internet
+            plan at the same address. No contract, no rate hikes.
+          </Typography>
+          <Button>Get your good stuff here!</Button>
+        </Column>
+        <Column>
+          <Typography variant="h3">Column Heading</Typography>
+          <Typography>
+            Hodor hodor! Hodor? Hodor, hodor. Hodor. Hodor. Hodor, hodor. Hodor.
+            Hodor, hodor. Hodor. HODOR HODOR! HODOR hodor, hodor. Hodor hodor!
+            Hodor? Hodor! Hodor hodor. Hodor hodor HODOR! Hodor. Hodor, hodor,
+            hodor , hodor. Hodor hodor HODOR! Hodor.
+          </Typography>
+          <Button>Hodor!</Button>
+        </Column>
+        <Column>
+          <Typography variant="h3">Column Heading</Typography>
+          <Typography>
+            CenturyLink Price for Life Internet Plans ensure your monthly
+            internet rate stays the same when you remain on the same internet.
+          </Typography>
+          <Button>Get your good stuff here!</Button>
+        </Column>
+      </Columns>
+    </VariableContent>
+  </Story>
+</Preview>
+
+## with Prominent
+<Preview>
+  <Story name="Prominent">
+    <div>
+      <VariableContent
+        heading="A super heading"
+        subheading="A great subheading"
+        backgroundColor="Prominent"
+        centeredContent
+        mainContent={
+          <>
+            <Typography>
+              CenturyLink Price for Life Internet Plans ensure your monthly
+              internet rate stays the same when you remain on the same internet
+              plan at the same address. No contract, no rate hikes.
+            </Typography>
+            <Typography>
+              See what CenturyLink Services are in your area:
+            </Typography>
+            <Typography>
+             See what CenturyLink Services are in your area: <Link to="/section-link"> Call Now</Link>
+          </Typography>
+          </>
+        }
+      />
+    </div>
+  </Story>
+</Preview>

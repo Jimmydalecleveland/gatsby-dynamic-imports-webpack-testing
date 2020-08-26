@@ -1,0 +1,182 @@
+import {
+  Story,
+  Meta,
+  Preview,
+  Props,
+  Anchor,
+} from "@storybook/addon-docs/blocks"
+
+import Billboard, { ticketID } from "."
+import Button from "../Button"
+import Typography from "../Typography"
+import Link from "../Link"
+import ComponentProgress from "../ComponentProgress"
+import BillboardImage from "../../images/contentful-stories/billboard.png"
+import { BUTTON } from "../utils/dataTrackingValues"
+
+import { FLUID_IMAGE_DATA, FLUID_IMAGE_DATA_FULL } from "./dummyData"
+
+<Meta
+  title="Components|Billboard"
+  component={Billboard}
+  decorators={[
+    story => (
+      <>
+        <ComponentProgress ticketID={ticketID} />
+        {story()}
+      </>
+    ),
+  ]}
+/>
+
+# Billboard
+
+<Preview>
+  <Story name="basic">
+    <Billboard
+      heading="Price for Life"
+      mainContent={
+        <>
+          <Typography>
+            CenturyLink Price for Life Internet Plans ensure your monthly
+            internet rate stays the same when you remain on the same internet
+            plan at the same address. No contract, no rate hikes.
+          </Typography>
+          <Typography>
+            See what CenturyLink Services are in your area:{" "}
+            <Link to="/section-link"> Call Now</Link>
+          </Typography>
+          <Button primary data-tracking={BUTTON}>
+            Submit
+          </Button>
+        </>
+      }
+      image={FLUID_IMAGE_DATA}
+    />
+  </Story>
+</Preview>
+
+## Props
+
+<Props of={Billboard} />
+
+## Dark Content Container
+
+<Preview>
+  <Story name="dark">
+    <Billboard
+      backgroundColor="Dark"
+      heading="Price for Life"
+      mainContent={
+        <>
+          <Typography>
+            CenturyLink Price for Life Internet Plans ensure your monthly
+            internet rate stays the same when you remain on the same internet
+            plan at the same address. No contract, no rate hikes.
+          </Typography>
+          <Typography>
+            See what CenturyLink Services are in your area:{" "}
+            <Link to="/section-link"> Call Now</Link>
+          </Typography>
+          <Button>Submit</Button>
+        </>
+      }
+      image={FLUID_IMAGE_DATA}
+    />
+  </Story>
+</Preview>
+
+## Prominent Content Container
+
+<Preview>
+  <Story name="prominent">
+    <Billboard
+      backgroundColor="Prominent"
+      heading="Price for Life"
+      mainContent={
+        <>
+          <Typography>
+            CenturyLink Price for Life Internet Plans ensure your monthly
+            internet rate stays the same when you remain on the same internet
+            plan at the same address. No contract, no rate hikes.
+          </Typography>
+          <Typography>
+            See what CenturyLink Services are in your area:{" "}
+            <Link to="/section-link"> Call Now</Link>
+          </Typography>
+          <Button primary data-tracking={BUTTON}>
+            Submit
+          </Button>
+        </>
+      }
+      image={FLUID_IMAGE_DATA}
+    />
+  </Story>
+</Preview>
+
+## Full Width Background
+
+When the `variant` prop is passed `'full'`, the background image will take up the full width of it's container.
+
+<Preview>
+  <Story name="full width background">
+    <Billboard
+      variant="full"
+      heading={<Typography variant="h2">Price for Life</Typography>}
+      mainContent={
+        <>
+          <Typography>
+            CenturyLink Price for Life Internet Plans ensure your monthly
+            internet rate stays the same when you remain on the same internet
+            plan at the same address. No contract, no rate hikes.
+          </Typography>
+          <Typography>
+            See what CenturyLink Services are in your area:{" "}
+            <Link to="/section-link"> Call Now</Link>
+          </Typography>
+          <Button primary data-tracking={BUTTON}>
+            Submit
+          </Button>
+        </>
+      }
+      image={FLUID_IMAGE_DATA_FULL}
+    />
+    <Billboard
+      variant="full"
+      prominent
+      heading={<Typography variant="h2">Price for Life</Typography>}
+      mainContent={
+        <>
+          <Typography>
+            CenturyLink Price for Life Internet Plans ensure your monthly
+            internet rate stays the same when you remain on the same internet
+            plan at the same address. No contract, no rate hikes.
+          </Typography>
+          <Typography>
+            See what CenturyLink Services are in your area:
+          </Typography>
+          <Button primary data-tracking={BUTTON}>
+            Submit
+          </Button>
+        </>
+      }
+      image={FLUID_IMAGE_DATA_FULL}
+    />
+  </Story>
+</Preview>
+
+## Contentful
+
+<Story name="contentful">
+  <div>
+    <p>
+      In a "Section" entry, select "Billboard" from the "type" selector. The
+      entire section will become a Billboard component.
+      <strong>
+        The "Identifier" and "Featured Image" fields are required for this
+        entry.
+      </strong>
+    </p>
+    <img src={BillboardImage} alt="billboard type selector in contentful" />
+  </div>
+</Story>

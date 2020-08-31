@@ -11,13 +11,6 @@ import {
 import { CRUMB_DATA } from "./leshen/Breadcrumbs/dummyData"
 import { FLUID_IMAGE_DATA } from "./leshen/Hero/dummyData"
 
-const Alpha = loadable(() => import("./components/Alpha.js"))
-const Bravo = loadable(() => import("./components/Bravo"))
-const Charlie = loadable(() => import("./components/Charlie"))
-const Delta = loadable(() => import("./components/Delta.js"))
-const Echo = loadable(() => import("./components/Echo"))
-const Foxtrot = loadable(() => import("./components/Foxtrot"))
-
 const Button = loadable(() => import("./leshen/Button"))
 const Typography = loadable(() => import("./leshen/Typography"))
 const Accordion = loadable(() => import("./leshen/Accordion/AccordionDemo"))

@@ -1,0 +1,51 @@
+import { Story, Meta, Preview, Props, Anchor } from '@storybook/addon-docs/blocks'
+
+import Section from '../Section'
+import Table, { ticketID } from '.'
+import { tableData, stickyTableData } from './dummyData'
+import ComponentProgress from '../ComponentProgress'
+import Typography from '../Typography'
+import TableSectionImage from '../../images/contentful-stories/table-section.png'
+import TableModuleImage from '../../images/contentful-stories/table-module.png'
+import TableFieldsImage from '../../images/contentful-stories/table-fields.png'
+
+
+<Meta title='Components|Table' component={Table} decorators={[(story) => <><ComponentProgress ticketID={ticketID} />{story()}</>]} />
+
+# Table
+<Preview>
+  <Story name="default">
+    <Section>
+      <Table json={tableData} />
+    </Section>
+  </Story>
+</Preview>
+
+## Props
+<Props of={Table} />
+
+## Sticky Table
+
+<Preview>
+  <Story name="sticky">
+    <Section>
+      <p>
+        Resize to a mobile viewport to see the sticky/scrolling functionality.
+      </p>
+      <Table json={stickyTableData} />
+    </Section>
+  </Story>
+</Preview>
+
+## Contentful
+
+<Preview>
+  <Story name="contentful">
+    <>
+      <Typography>In the "Modules" entry create a new entry and select "Basic Table" from the dropdown.</Typography>
+      <img src={TableModuleImage} alt="Table module in contentful" />
+      <Typography>Now you can name the table and add the <code>JSON</code> that will render as a table on the front end.</Typography>
+      <img src={TableFieldsImage} alt="Example of a Table entryss fields" />
+    </>
+  </Story>
+</Preview>

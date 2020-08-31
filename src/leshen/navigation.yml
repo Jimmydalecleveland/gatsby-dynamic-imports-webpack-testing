@@ -1,0 +1,92 @@
+defaultTemplatePrimary:
+  - text: Heros
+    href: /hero-hero
+    subnav:
+      - text: Default
+        href: /hero-default
+      - text: Hero
+        href: /hero-hero
+      - text: Billboard
+        href: /hero-billboard
+      - text: Split Billboard
+        href: /hero-split-billboard
+      - text: Split Content
+        href: /hero-split-content
+      - text: Split Module
+        href: /multi-step-form
+      - text: Background Colors
+        href: /background-colors
+  - text: Modules
+    href: /modules-examples
+    subnav:
+      - text: Columned Collections
+        href: /columned-collections
+      - text: Stacked Collections
+        href: /stacked-collections
+      - text: Package Cards
+        href: /package-cards
+      - text: Disclaimers
+        href: /disclaimers
+      - text: Availability
+        href: /availability
+      - text: Buttons
+        href: /buttons
+      - text: Tables
+        href: /tables
+  - text: External Link
+    href: https://github.com
+topBarItems:
+  - text: Clearlink Business
+    href: /
+footerNavItems:
+  - text: Services
+    href: false
+    subnav:
+      - text: Clearlink Internet
+        href: #
+      - text: FiOS Internet
+        href: #
+      - text: Bundles
+        href: #
+      - text: Frontier TV
+        href: #
+      - text: Dish TV
+        href: #
+      - text: Clearlink Phone
+        href: #
+      - text: Business
+        href: #
+  - text: About
+    href: false
+    subnav:
+      - text: Store Locations
+        href: #
+      - text: Media Center
+        href: #
+      - text: Scholarship
+        href: #
+      - text: Contact Us
+        href: #
+  - text: Español
+    href: false
+    subnav:
+      - text: Internet
+        href: #
+      - text: FiOS Internet
+        href: #
+      - text: DishLATINO
+        href: #
+      - text: Teléfono
+        href: #
+      - text: Paquetes
+        href: #
+  - text: Terms
+    href: false
+    subnav:
+      - text: Legal
+        href: #
+      - text: Privacy Policy
+        href: #
+      - text: Terms of Service
+        href: #
+

@@ -1,0 +1,43 @@
+import { Story, Meta, Preview, Props, Anchor } from '@storybook/addon-docs/blocks'
+
+import Price, { ticketID } from '.'
+import Typography from '../Typography'
+import ComponentProgress from '../ComponentProgress'
+
+<Meta title='Components|Price' component={Price} decorators={[(story) => <><ComponentProgress ticketID={ticketID} />{story()}</>]} />
+
+# Price
+
+<Preview>
+  <Story name="basic">
+    <Price amount="45.99" />
+  </Story>
+</Preview>
+
+## Props
+<Props of={Price} />
+
+## With prefix label
+<Preview>
+  <Story name="with prefix label">
+    <Price prefix="Starting at" amount="54.99" />
+  </Story>
+</Preview>
+
+## With prefix, suffix, and disclaimer
+<Preview>
+  <Story name="with prefix, suffix, and disclaimer">
+    <Price prefix="Starting at" suffix="Limited time offer" amount="67.99">
+      <Typography variant="legal">
+        A disclaimer is a common child element to pass to the Price component.
+      </Typography>
+    </Price>
+  </Story>
+</Preview>
+
+## Large
+<Preview>
+  <Story name="large">
+    <Price prefix="Starting at" amount="54.99" large />
+  </Story>
+</Preview>

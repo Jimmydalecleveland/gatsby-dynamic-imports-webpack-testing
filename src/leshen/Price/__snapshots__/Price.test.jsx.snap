@@ -1,0 +1,135 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Price Price should render 1`] = `
+.emotion-8 {
+  display: inline-grid;
+  grid-template-areas: "prefix prefix prefix prefix" "currency dollars change duration" "suffix suffix suffix suffix";
+  font-size: 3.25rem;
+}
+
+.emotion-0 {
+  grid-area: currency;
+  font-size: 0.35em;
+  line-height: 1;
+}
+
+.emotion-2 {
+  grid-area: dollars;
+  line-height: 0.7;
+}
+
+.emotion-4 {
+  grid-area: change;
+  font-size: 1em;
+  line-height: 0.7;
+}
+
+.emotion-4::before {
+  display: inline-block;
+  content: '.';
+}
+
+.emotion-6 {
+  grid-area: duration;
+  font-size: 0.4em;
+  line-height: 1;
+}
+
+<div
+  aria-label=" $43.99 per /mo"
+  class="emotion-8 emotion-9"
+>
+  <span
+    class="emotion-0 emotion-1"
+  >
+    $
+  </span>
+  <span
+    class="emotion-2 emotion-3"
+  >
+    43
+  </span>
+  <span
+    class="emotion-4 emotion-5"
+  >
+    99
+  </span>
+  <span
+    class="emotion-6 emotion-7"
+  >
+    /mo
+  </span>
+</div>
+`;
+
+exports[`Price Price should render with a label if provided 1`] = `
+.emotion-10 {
+  display: inline-grid;
+  grid-template-areas: "prefix prefix prefix prefix" "currency dollars change duration" "suffix suffix suffix suffix";
+  font-size: 3.25rem;
+}
+
+.emotion-2 {
+  grid-area: currency;
+  font-size: 0.35em;
+  line-height: 1;
+}
+
+.emotion-4 {
+  grid-area: dollars;
+  line-height: 0.7;
+}
+
+.emotion-6 {
+  grid-area: change;
+  font-size: 1em;
+  line-height: 0.7;
+}
+
+.emotion-6::before {
+  display: inline-block;
+  content: '.';
+}
+
+.emotion-8 {
+  grid-area: duration;
+  font-size: 0.4em;
+  line-height: 1;
+}
+
+.emotion-0 {
+  grid-area: prefix;
+  font-size: 1rem;
+}
+
+<div
+  aria-label="Starting at $43.99 per /mo"
+  class="emotion-10 emotion-11"
+>
+  <span
+    class="emotion-0 emotion-1"
+  >
+    Starting at
+  </span>
+  <span
+    class="emotion-2 emotion-3"
+  >
+    $
+  </span>
+  <span
+    class="emotion-4 emotion-5"
+  >
+    43
+  </span>
+  <span
+    class="emotion-6 emotion-7"
+  >
+    99
+  </span>
+  <span
+    class="emotion-8 emotion-9"
+  >
+    /mo
+  </span>
+</div>
+`;

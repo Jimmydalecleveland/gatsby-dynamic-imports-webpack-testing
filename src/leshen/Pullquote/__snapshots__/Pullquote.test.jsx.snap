@@ -1,0 +1,164 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pullquote should render 1`] = `
+.emotion-2 {
+  margin: 24px 32px 24px;
+}
+
+@media (min-width:768px) {
+  .emotion-2 {
+    margin: 32px 32px 24px;
+  }
+}
+
+.emotion-0 {
+  font-weight: 500;
+  font-size: calc(0.8333333333333334vw + 18px);
+  line-height: calc(1.6666666666666667vw + 16px);
+}
+
+@media (max-width:480px) {
+  .emotion-0 {
+    font-size: 22px;
+  }
+}
+
+@media (min-width:1200px) {
+  .emotion-0 {
+    font-size: 28px;
+  }
+}
+
+@media (max-width:480px) {
+  .emotion-0 {
+    line-height: 24px;
+  }
+}
+
+@media (min-width:1200px) {
+  .emotion-0 {
+    line-height: 36px;
+  }
+}
+
+@media all and (-ms-high-contrast:none),(-ms-high-contrast:active) {
+  .emotion-0 {
+    width: 100%;
+  }
+}
+
+<div>
+  <div
+    class="emotion-2 emotion-3"
+  >
+    <blockquote
+      class="emotion-0 emotion-1"
+    >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    </blockquote>
+    
+  </div>
+</div>
+`;
+
+exports[`Pullquote should render with optional citation 1`] = `
+.emotion-5 {
+  margin: 24px 32px 24px;
+}
+
+@media (min-width:768px) {
+  .emotion-5 {
+    margin: 32px 32px 24px;
+  }
+}
+
+.emotion-0 {
+  font-weight: 500;
+  font-size: calc(0.8333333333333334vw + 18px);
+  line-height: calc(1.6666666666666667vw + 16px);
+}
+
+@media (max-width:480px) {
+  .emotion-0 {
+    font-size: 22px;
+  }
+}
+
+@media (min-width:1200px) {
+  .emotion-0 {
+    font-size: 28px;
+  }
+}
+
+@media (max-width:480px) {
+  .emotion-0 {
+    line-height: 24px;
+  }
+}
+
+@media (min-width:1200px) {
+  .emotion-0 {
+    line-height: 36px;
+  }
+}
+
+@media all and (-ms-high-contrast:none),(-ms-high-contrast:active) {
+  .emotion-0 {
+    width: 100%;
+  }
+}
+
+.emotion-3 {
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  margin-top: 16px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+@media all and (-ms-high-contrast:none),(-ms-high-contrast:active) {
+  .emotion-3 {
+    width: 100%;
+  }
+}
+
+.emotion-3::before,
+.emotion-3::after {
+  margin-right: 12px;
+  content: '';
+  border-bottom: solid 1px;
+  width: 20px;
+}
+
+.emotion-3::after {
+  margin-left: 12px;
+  margin-right: 0;
+}
+
+<div>
+  <div
+    class="emotion-5 emotion-6"
+  >
+    <blockquote
+      class="emotion-0 emotion-1"
+    >
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quis vero ad deleniti iusto quo sequi omnis? Cupiditate doloribus molestias recusandae tenetur fuga ipsam enim.
+    </blockquote>
+    <span
+      class="emotion-2 emotion-3 emotion-1"
+    >
+      John Doe
+    </span>
+  </div>
+</div>
+`;

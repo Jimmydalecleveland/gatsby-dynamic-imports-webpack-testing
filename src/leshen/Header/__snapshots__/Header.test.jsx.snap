@@ -1,0 +1,1569 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header Header should render 1`] = `
+.emotion-12 {
+  background-image: #fff;
+  display: none;
+  position: relative;
+  z-index: 2;
+}
+
+.emotion-12 nav a {
+  display: inline-block;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  line-height: 1;
+}
+
+.emotion-12 .primary-link a,
+.emotion-12 .primary-link > span {
+  color: inherit;
+}
+
+@media (min-width:1200px) {
+  .emotion-12 {
+    display: block;
+  }
+}
+
+.emotion-4 {
+  padding-left: calc(2.2222222222222223vw + 21.333333333333332px);
+  padding-right: calc(2.2222222222222223vw + 21.333333333333332px);
+  background-color: #f4f5f6;
+  font-size: 0.75rem;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+@media (max-width:480px) {
+  .emotion-4 {
+    padding-left: 32px;
+  }
+}
+
+@media (min-width:1200px) {
+  .emotion-4 {
+    padding-left: 48px;
+  }
+}
+
+@media (max-width:480px) {
+  .emotion-4 {
+    padding-right: 32px;
+  }
+}
+
+@media (min-width:1200px) {
+  .emotion-4 {
+    padding-right: 48px;
+  }
+}
+
+@media (min-width:1288px) {
+  .emotion-4 {
+    padding-right: calc((100% - 1200px) / 2);
+    padding-left: calc((100% - 1200px) / 2);
+  }
+}
+
+.emotion-0 a {
+  border-left: 1px solid #383d43;
+  padding: 0 1em;
+  color: inherit;
+}
+
+.emotion-0 a:first-of-type {
+  padding-left: 0;
+  border-left: none;
+}
+
+.emotion-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-2 a {
+  border-left: 1px solid #383d43;
+  color: inherit;
+  margin-left: 1em;
+  padding-left: 1em;
+}
+
+.emotion-2 a .ci {
+  color: blue;
+}
+
+.emotion-2 span {
+  color: red;
+}
+
+.emotion-10 {
+  padding-left: calc(2.2222222222222223vw + 21.333333333333332px);
+  padding-right: calc(2.2222222222222223vw + 21.333333333333332px);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+@media (max-width:480px) {
+  .emotion-10 {
+    padding-left: 32px;
+  }
+}
+
+@media (min-width:1200px) {
+  .emotion-10 {
+    padding-left: 48px;
+  }
+}
+
+@media (max-width:480px) {
+  .emotion-10 {
+    padding-right: 32px;
+  }
+}
+
+@media (min-width:1200px) {
+  .emotion-10 {
+    padding-right: 48px;
+  }
+}
+
+@media (min-width:1288px) {
+  .emotion-10 {
+    padding-right: calc((100% - 1200px) / 2);
+    padding-left: calc((100% - 1200px) / 2);
+  }
+}
+
+.emotion-6 {
+  background: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-basis: 80%;
+  -ms-flex-preferred-size: 80%;
+  flex-basis: 80%;
+}
+
+.emotion-6 .primary-link {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-transition: color 0.1s,background-color 0.1s;
+  transition: color 0.1s,background-color 0.1s;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.emotion-6 .primary-link:hover {
+  background-color: #0f6bc0;
+  color: #f4f5f6;
+}
+
+.emotion-6 .primary-link:hover .subnav {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-6 .primary-link > a,
+.emotion-6 .primary-link > span {
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 16px 12px;
+}
+
+.emotion-6 .primary-link:first-of-type {
+  margin-left: 16px;
+}
+
+.emotion-6 .subnav {
+  box-shadow: 0 0.3rem 1rem 0 rgba(0,0,0,0.1);
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  display: none;
+  position: absolute;
+  top: 100%;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  list-style: none;
+  background: #fff;
+}
+
+.emotion-6 .subnav li:last-child {
+  border-bottom-right-radius: inherit;
+  border-bottom-left-radius: inherit;
+}
+
+.emotion-6 .subnav a {
+  padding: 16px;
+  padding-right: 48px;
+  color: #383d43;
+  display: block;
+  cursor: pointer;
+  -webkit-transition: color 0.25s,background-color 0.25s;
+  transition: color 0.25s,background-color 0.25s;
+  text-transform: initial;
+}
+
+.emotion-6 .subnav a:last-child {
+  border-bottom-right-radius: inherit;
+  border-bottom-left-radius: inherit;
+}
+
+.emotion-6 .subnav a:hover {
+  background-color: #e6e8eb;
+}
+
+.emotion-8 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.emotion-8:link {
+  color: #0f6bc0;
+}
+
+.emotion-8:hover {
+  cursor: pointer;
+}
+
+<header
+  class="emotion-12 emotion-13"
+  role="banner"
+>
+  <div
+    class="emotion-4 emotion-5"
+  >
+    <nav
+      class="emotion-0 emotion-1"
+    >
+      <a
+        aria-current="page"
+        class=""
+        data-tracking="header__navigation-item"
+        href="/"
+      >
+        Clearlink Business
+      </a>
+    </nav>
+    <div
+      class="emotion-2 emotion-3"
+    >
+      <span>
+        LocationOn icon Mock
+      </span>
+      Showing Plans for Salt Lake City
+      <a
+        aria-current="page"
+        class=""
+        href="/"
+      >
+        Change
+      </a>
+    </div>
+  </div>
+  <div
+    class="emotion-10 emotion-11"
+  >
+    <nav
+      class="emotion-6 emotion-7"
+      role="navigation"
+    >
+      <div>
+        test-file-stub
+      </div>
+      <span
+        class="primary-link"
+      >
+        <span>
+          FiOS
+        </span>
+        <ul
+          class="subnav"
+        >
+          <li>
+            <a
+              aria-current="page"
+              class=""
+              data-tracking="header__navigation-item"
+              href="/"
+            >
+              Clearlink FiOs
+            </a>
+          </li>
+          <li>
+            <a
+              aria-current="page"
+              class=""
+              data-tracking="header__navigation-item"
+              href="/"
+            >
+              What is FiOs?
+            </a>
+          </li>
+          <li>
+            <a
+              aria-current="page"
+              class=""
+              data-tracking="header__navigation-item"
+              href="/"
+            >
+              FiOs vs Cable
+            </a>
+          </li>
+        </ul>
+      </span>
+      <span
+        class="primary-link"
+      >
+        <a
+          data-tracking="header__navigation-item"
+          href="/BillboardPage"
+        >
+          <span>
+            Internet
+          </span>
+           
+          <span>
+            KeyboardArrowDown icon Mock
+          </span>
+        </a>
+        <ul
+          class="subnav"
+        >
+          <li>
+            <a
+              aria-current="page"
+              class=""
+              data-tracking="header__navigation-item"
+              href="/"
+            >
+              FiOs Internet
+            </a>
+          </li>
+          <li>
+            <a
+              aria-current="page"
+              class=""
+              data-tracking="header__navigation-item"
+              href="/"
+            >
+              High Speed Internet
+            </a>
+          </li>
+          <li>
+            <a
+              aria-current="page"
+              class=""
+              data-tracking="header__navigation-item"
+              href="/"
+            >
+              Vantage Internet?
+            </a>
+          </li>
+        </ul>
+      </span>
+      <span
+        class="primary-link"
+      >
+        <a
+          data-tracking="header__navigation-item"
+          href="/TabsPage"
+        >
+          <span>
+            TV
+          </span>
+        </a>
+      </span>
+      <span
+        class="primary-link"
+      >
+        <a
+          aria-current="page"
+          class=""
+          data-tracking="header__navigation-item"
+          href="/"
+        >
+          <span>
+            Phone
+          </span>
+        </a>
+      </span>
+      <span
+        class="primary-link"
+      >
+        <a
+          aria-current="page"
+          class=""
+          data-tracking="header__navigation-item"
+          href="/"
+        >
+          <span>
+            Plans & Pricing
+          </span>
+        </a>
+      </span>
+      <span
+        class="primary-link"
+      >
+        <a
+          data-tracking="header__navigation-item"
+          href="https://github.com"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <span>
+            More
+          </span>
+        </a>
+      </span>
+    </nav>
+    <a
+      class="emotion-8 emotion-9"
+      data-tracking="header__phone-link"
+      href="tel:1-555-555-5555"
+    >
+      Order 
+      1-555-555-5555
+    </a>
+  </div>
+</header>
+`;
+
+exports[`Header Header with mega menu should render 1`] = `
+.emotion-14 {
+  background-image: #fff;
+  display: none;
+  position: relative;
+  z-index: 2;
+}
+
+.emotion-14 nav a {
+  display: inline-block;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  line-height: 1;
+}
+
+.emotion-14 .primary-link a,
+.emotion-14 .primary-link > span {
+  color: inherit;
+}
+
+@media (min-width:1200px) {
+  .emotion-14 {
+    display: block;
+  }
+}
+
+.emotion-4 {
+  padding-left: calc(2.2222222222222223vw + 21.333333333333332px);
+  padding-right: calc(2.2222222222222223vw + 21.333333333333332px);
+  background-color: #f4f5f6;
+  font-size: 0.75rem;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+@media (max-width:480px) {
+  .emotion-4 {
+    padding-left: 32px;
+  }
+}
+
+@media (min-width:1200px) {
+  .emotion-4 {
+    padding-left: 48px;
+  }
+}
+
+@media (max-width:480px) {
+  .emotion-4 {
+    padding-right: 32px;
+  }
+}
+
+@media (min-width:1200px) {
+  .emotion-4 {
+    padding-right: 48px;
+  }
+}
+
+@media (min-width:1288px) {
+  .emotion-4 {
+    padding-right: calc((100% - 1200px) / 2);
+    padding-left: calc((100% - 1200px) / 2);
+  }
+}
+
+.emotion-0 a {
+  border-left: 1px solid #383d43;
+  padding: 0 1em;
+  color: inherit;
+}
+
+.emotion-0 a:first-of-type {
+  padding-left: 0;
+  border-left: none;
+}
+
+.emotion-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-2 a {
+  border-left: 1px solid #383d43;
+  color: inherit;
+  margin-left: 1em;
+  padding-left: 1em;
+}
+
+.emotion-2 a .ci {
+  color: blue;
+}
+
+.emotion-2 span {
+  color: red;
+}
+
+.emotion-12 {
+  padding-left: calc(2.2222222222222223vw + 21.333333333333332px);
+  padding-right: calc(2.2222222222222223vw + 21.333333333333332px);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+@media (max-width:480px) {
+  .emotion-12 {
+    padding-left: 32px;
+  }
+}
+
+@media (min-width:1200px) {
+  .emotion-12 {
+    padding-left: 48px;
+  }
+}
+
+@media (max-width:480px) {
+  .emotion-12 {
+    padding-right: 32px;
+  }
+}
+
+@media (min-width:1200px) {
+  .emotion-12 {
+    padding-right: 48px;
+  }
+}
+
+@media (min-width:1288px) {
+  .emotion-12 {
+    padding-right: calc((100% - 1200px) / 2);
+    padding-left: calc((100% - 1200px) / 2);
+  }
+}
+
+.emotion-8 {
+  background: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-basis: 80%;
+  -ms-flex-preferred-size: 80%;
+  flex-basis: 80%;
+}
+
+.emotion-8 .primary-link {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-transition: color 0.1s,background-color 0.1s;
+  transition: color 0.1s,background-color 0.1s;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.emotion-8 .primary-link:hover {
+  background-color: #0f6bc0;
+  color: #f4f5f6;
+}
+
+.emotion-8 .primary-link:hover .subnav {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-8 .primary-link > a,
+.emotion-8 .primary-link > span {
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 16px 12px;
+}
+
+.emotion-8 .primary-link:first-of-type {
+  margin-left: 16px;
+}
+
+.emotion-8 .subnav {
+  box-shadow: 0 0.3rem 1rem 0 rgba(0,0,0,0.1);
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  display: none;
+  position: absolute;
+  top: 100%;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  list-style: none;
+  background: #fff;
+}
+
+.emotion-8 .subnav li:last-child {
+  border-bottom-right-radius: inherit;
+  border-bottom-left-radius: inherit;
+}
+
+.emotion-8 .subnav a {
+  padding: 16px;
+  padding-right: 48px;
+  color: #383d43;
+  display: block;
+  cursor: pointer;
+  -webkit-transition: color 0.25s,background-color 0.25s;
+  transition: color 0.25s,background-color 0.25s;
+  text-transform: initial;
+}
+
+.emotion-8 .subnav a:last-child {
+  border-bottom-right-radius: inherit;
+  border-bottom-left-radius: inherit;
+}
+
+.emotion-8 .subnav a:hover {
+  background-color: #e6e8eb;
+}
+
+.emotion-10 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.emotion-10:link {
+  color: #0f6bc0;
+}
+
+.emotion-10:hover {
+  cursor: pointer;
+}
+
+.emotion-6 .subnav {
+  color: #383d43;
+  box-shadow: 0 0.3rem 1rem 0 rgba(0,0,0,0.1);
+  max-width: 980px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.emotion-6 .subnav {
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.emotion-6 .subnav .subnav-container {
+  padding: 32px;
+  width: 100%;
+}
+
+.emotion-6 .subnav h3 {
+  font-size: calc(0.5555555555555556vw + 17.333333333333332px);
+  color: #383d43;
+  font-weight: 500;
+}
+
+@media (max-width:480px) {
+  .emotion-6 .subnav h3 {
+    font-size: 20px;
+  }
+}
+
+@media (min-width:1200px) {
+  .emotion-6 .subnav h3 {
+    font-size: 24px;
+  }
+}
+
+.emotion-6 .subnav ul {
+  grid-gap: 32px;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.emotion-6 .subnav ul div,
+.emotion-6 .subnav ul li {
+  padding-right: 32px;
+  width: 100%;
+}
+
+.emotion-6 .subnav ul h4,
+.emotion-6 .subnav ul > li a {
+  font-weight: 500;
+  border-bottom: 1px solid #383d43;
+}
+
+.emotion-6 .subnav ul h4:hover,
+.emotion-6 .subnav ul > li a:hover {
+  border-bottom: 1px solid #0f6bc0;
+}
+
+.emotion-6 .subnav ul h4 a,
+.emotion-6 .subnav ul > li a a {
+  color: #383d43;
+  padding: 8px;
+  padding-left: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-6 .subnav ul h4 a:hover,
+.emotion-6 .subnav ul > li a a:hover {
+  background-color: initial;
+  color: #0f6bc0;
+}
+
+.emotion-6 .subnav ul li a {
+  color: #383d43;
+  padding: 8px;
+  padding-left: 0;
+}
+
+.emotion-6 .subnav ul li a:hover {
+  background-color: initial;
+  color: #0f6bc0;
+}
+
+<header
+  class="emotion-14 emotion-15"
+  role="banner"
+>
+  <div
+    class="emotion-4 emotion-5"
+  >
+    <nav
+      class="emotion-0 emotion-1"
+    >
+      <a
+        aria-current="page"
+        class=""
+        data-tracking="header__navigation-item"
+        href="/"
+      >
+        Clearlink Business
+      </a>
+    </nav>
+    <div
+      class="emotion-2 emotion-3"
+    >
+      <span>
+        LocationOn icon Mock
+      </span>
+      Showing Plans for Salt Lake City
+      <a
+        aria-current="page"
+        class=""
+        href="/"
+      >
+        Change
+      </a>
+    </div>
+  </div>
+  <div
+    class="emotion-12 emotion-13"
+  >
+    <nav
+      class="emotion-8 emotion-9"
+      role="navigation"
+    >
+      test-file-stub
+      <span
+        class="primary-link"
+      >
+        <a
+          aria-current="page"
+          class=""
+          data-tracking="header__navigation-item"
+          href="/"
+        >
+          <span>
+            FiOS
+          </span>
+           
+          <span>
+            KeyboardArrowDown icon Mock
+          </span>
+        </a>
+        <ul
+          class="subnav"
+        >
+          <li>
+            <a
+              aria-current="page"
+              class=""
+              data-tracking="header__navigation-item"
+              href="/"
+            >
+              Clearlink FiOs
+            </a>
+          </li>
+          <li>
+            <a
+              aria-current="page"
+              class=""
+              data-tracking="header__navigation-item"
+              href="/"
+            >
+              What is FiOs?
+            </a>
+          </li>
+          <li>
+            <a
+              aria-current="page"
+              class=""
+              data-tracking="header__navigation-item"
+              href="/"
+            >
+              FiOs vs Cable
+            </a>
+          </li>
+        </ul>
+      </span>
+      <span
+        class="primary-link"
+      >
+        <a
+          data-tracking="header__navigation-item"
+          href="/BillboardPage"
+        >
+          <span>
+            Internet
+          </span>
+           
+          <span>
+            KeyboardArrowDown icon Mock
+          </span>
+        </a>
+        <nav
+          class="emotion-6 emotion-7"
+        >
+          <div
+            class="subnav"
+          >
+            <div
+              class="subnav-container"
+            >
+              <h3>
+                Internet
+              </h3>
+              <ul>
+                <div>
+                  <h4>
+                    <a
+                      aria-current="page"
+                      class=""
+                      data-tracking="header__navigation-item"
+                      href="/"
+                    >
+                      FiOS Internet
+                    </a>
+                  </h4>
+                  <li>
+                    <a
+                      aria-current="page"
+                      class=""
+                      data-tracking="header__navigation-item"
+                      href="/"
+                    >
+                      Clearlink FiOS
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      aria-current="page"
+                      class=""
+                      data-tracking="header__navigation-item"
+                      href="/"
+                    >
+                      What is FiOS?
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      aria-current="page"
+                      class=""
+                      data-tracking="header__navigation-item"
+                      href="/"
+                    >
+                      FiOS vs Cable?
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      aria-current="page"
+                      class=""
+                      data-tracking="header__navigation-item"
+                      href="/"
+                    >
+                      Who am I?
+                    </a>
+                  </li>
+                </div>
+                <div>
+                  <h4>
+                    <a
+                      aria-current="page"
+                      class=""
+                      data-tracking="header__navigation-item"
+                      href="/"
+                    >
+                      High Speed Internet
+                    </a>
+                  </h4>
+                  <li>
+                    <a
+                      aria-current="page"
+                      class=""
+                      data-tracking="header__navigation-item"
+                      href="/"
+                    >
+                      What is Internet?
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      aria-current="page"
+                      class=""
+                      data-tracking="header__navigation-item"
+                      href="/"
+                    >
+                      How Do I Internet?
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      aria-current="page"
+                      class=""
+                      data-tracking="header__navigation-item"
+                      href="/"
+                    >
+                      Cuantos Internets?
+                    </a>
+                  </li>
+                </div>
+                <div>
+                  <h4>
+                    <a
+                      aria-current="page"
+                      class=""
+                      data-tracking="header__navigation-item"
+                      href="/"
+                    >
+                      Vantage Internet?
+                    </a>
+                  </h4>
+                  <li>
+                    <a
+                      aria-current="page"
+                      class=""
+                      data-tracking="header__navigation-item"
+                      href="/"
+                    >
+                      Im Stuck In The Internet
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      aria-current="page"
+                      class=""
+                      data-tracking="header__navigation-item"
+                      href="/"
+                    >
+                      Can you help me?
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      aria-current="page"
+                      class=""
+                      data-tracking="header__navigation-item"
+                      href="/"
+                    >
+                      Vantage Advantage?
+                    </a>
+                  </li>
+                </div>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </span>
+      <span
+        class="primary-link"
+      >
+        <a
+          data-tracking="header__navigation-item"
+          href="/TabsPage"
+        >
+          <span>
+            TV
+          </span>
+        </a>
+      </span>
+      <span
+        class="primary-link"
+      >
+        <a
+          aria-current="page"
+          class=""
+          data-tracking="header__navigation-item"
+          href="/"
+        >
+          <span>
+            Phone
+          </span>
+        </a>
+      </span>
+      <span
+        class="primary-link"
+      >
+        <a
+          aria-current="page"
+          class=""
+          data-tracking="header__navigation-item"
+          href="/"
+        >
+          <span>
+            Plans & Pricing
+          </span>
+        </a>
+      </span>
+      <span
+        class="primary-link"
+      >
+        <a
+          data-tracking="header__navigation-item"
+          href="https://github.com"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <span>
+            More
+          </span>
+        </a>
+      </span>
+    </nav>
+    <a
+      class="emotion-10 emotion-11"
+      data-tracking="header__phone-link"
+      href="tel:1-555-555-5555"
+    >
+      Order 
+      1-555-555-5555
+    </a>
+  </div>
+</header>
+`;
+
+exports[`Header clicking through the MobileNav on mobile works as intended 1`] = `
+.emotion-20 {
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  background-color: #fff;
+  z-index: 2;
+}
+
+.emotion-20 a {
+  padding: 12px 24px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  color: inherit;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #383d43;
+}
+
+.emotion-20 button,
+.emotion-20 a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: transparent;
+  border: none;
+}
+
+.emotion-20 .back-button {
+  background-color: #e6e8eb;
+  padding: 12px 24px;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  width: 100%;
+  text-align: left;
+}
+
+.emotion-20 .back-button svg {
+  margin: 0;
+}
+
+.emotion-20 ul {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  list-style-type: none;
+  background-color: #fff;
+  height: calc(100vh - 55px);
+}
+
+.emotion-20 ul li {
+  border-bottom: solid 1px #e6e8eb;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.emotion-20 ul li button {
+  padding: 12px 24px;
+  color: #383d43;
+  width: 100%;
+  text-align: left;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+}
+
+.emotion-20 ul li button:active {
+  background-color: #0f6bc0;
+  color: #f4f5f6;
+}
+
+.emotion-20 ul li button svg {
+  margin: 0;
+}
+
+.emotion-0 {
+  font-size: 1rem;
+  line-height: 1.375rem;
+}
+
+@media all and (-ms-high-contrast:none),(-ms-high-contrast:active) {
+  .emotion-0 {
+    width: 100%;
+  }
+}
+
+<nav
+  class="emotion-20 emotion-21"
+>
+  <div>
+    <ul>
+      <li>
+        <button
+          data-tracking="header__mobile-navigation-item"
+          type="button"
+        >
+          <span
+            class="emotion-0 emotion-1"
+          >
+            FiOS
+          </span>
+          <span>
+            ChevronRight icon Mock
+          </span>
+        </button>
+      </li>
+      <li>
+        <button
+          data-tracking="header__mobile-navigation-item"
+          type="button"
+        >
+          <span
+            class="emotion-0 emotion-1"
+          >
+            Internet
+          </span>
+          <span>
+            ChevronRight icon Mock
+          </span>
+        </button>
+        <div>
+          <ul>
+            <button
+              class="back-button"
+              data-testid="mobile-menu-back-button"
+              data-tracking="header__mobile-back-button"
+              type="button"
+            >
+              <span>
+                ChevronLeft icon Mock
+              </span>
+              <span
+                class="emotion-0 emotion-1"
+              >
+                Back
+              </span>
+            </button>
+            <li>
+              <a
+                data-tracking="header__mobile-navigation-item"
+                href="/BillboardPage"
+              >
+                Internet
+              </a>
+            </li>
+            <li>
+              <button
+                data-tracking="header__mobile-navigation-item"
+                type="button"
+              >
+                <span
+                  class="emotion-0 emotion-1"
+                >
+                  FiOS Internet
+                </span>
+                <span>
+                  ChevronRight icon Mock
+                </span>
+              </button>
+            </li>
+            <li>
+              <button
+                data-tracking="header__mobile-navigation-item"
+                type="button"
+              >
+                <span
+                  class="emotion-0 emotion-1"
+                >
+                  High Speed Internet
+                </span>
+                <span>
+                  ChevronRight icon Mock
+                </span>
+              </button>
+              <div>
+                <ul>
+                  <button
+                    class="back-button"
+                    data-testid="mobile-menu-back-button"
+                    data-tracking="header__mobile-back-button"
+                    type="button"
+                  >
+                    <span>
+                      ChevronLeft icon Mock
+                    </span>
+                    <span
+                      class="emotion-0 emotion-1"
+                    >
+                      Back
+                    </span>
+                  </button>
+                  <li>
+                    <a
+                      aria-current="page"
+                      class=""
+                      data-tracking="header__mobile-navigation-item"
+                      href="/"
+                    >
+                      High Speed Internet
+                    </a>
+                  </li>
+                  <li>
+                    <button
+                      data-tracking="header__mobile-navigation-item"
+                      type="button"
+                    >
+                      <span
+                        class="emotion-0 emotion-1"
+                      >
+                        What is Internet?
+                      </span>
+                      <span>
+                        ChevronRight icon Mock
+                      </span>
+                    </button>
+                    <div>
+                      <ul>
+                        <button
+                          class="back-button"
+                          data-testid="mobile-menu-back-button"
+                          data-tracking="header__mobile-back-button"
+                          type="button"
+                        >
+                          <span>
+                            ChevronLeft icon Mock
+                          </span>
+                          <span
+                            class="emotion-0 emotion-1"
+                          >
+                            Back
+                          </span>
+                        </button>
+                        <li>
+                          <a
+                            aria-current="page"
+                            class=""
+                            data-tracking="header__mobile-navigation-item"
+                            href="/"
+                          >
+                            What is Internet?
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            aria-current="page"
+                            class=""
+                            data-tracking="header__mobile-navigation-item"
+                            href="/"
+                          >
+                            What even is it?
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            aria-current="page"
+                            class=""
+                            data-tracking="header__mobile-navigation-item"
+                            href="/"
+                          >
+                            Series of Tubes?
+                          </a>
+                        </li>
+                        <li>
+                          <button
+                            data-tracking="header__mobile-navigation-item"
+                            type="button"
+                          >
+                            <span
+                              class="emotion-0 emotion-1"
+                            >
+                              Best Speeds
+                            </span>
+                            <span>
+                              ChevronRight icon Mock
+                            </span>
+                          </button>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li>
+                    <a
+                      aria-current="page"
+                      class=""
+                      data-tracking="header__mobile-navigation-item"
+                      href="/"
+                    >
+                      How Do I Internet?
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      aria-current="page"
+                      class=""
+                      data-tracking="header__mobile-navigation-item"
+                      href="/"
+                    >
+                      Cuantos Internets?
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <button
+                data-tracking="header__mobile-navigation-item"
+                type="button"
+              >
+                <span
+                  class="emotion-0 emotion-1"
+                >
+                  Vantage Internet?
+                </span>
+                <span>
+                  ChevronRight icon Mock
+                </span>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </li>
+      <li>
+        <a
+          data-tracking="header__mobile-navigation-item"
+          href="/TabsPage"
+        >
+          TV
+        </a>
+      </li>
+      <li>
+        <a
+          aria-current="page"
+          class=""
+          data-tracking="header__mobile-navigation-item"
+          href="/"
+        >
+          Phone
+        </a>
+      </li>
+      <li>
+        <a
+          aria-current="page"
+          class=""
+          data-tracking="header__mobile-navigation-item"
+          href="/"
+        >
+          Plans & Pricing
+        </a>
+      </li>
+      <li>
+        <a
+          data-tracking="header__mobile-navigation-item"
+          href="https://github.com"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          More
+        </a>
+      </li>
+    </ul>
+  </div>
+</nav>
+`;

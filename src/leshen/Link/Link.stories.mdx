@@ -1,0 +1,48 @@
+import { Story, Meta, Preview, Props, Anchor } from '@storybook/addon-docs/blocks'
+
+import Link, { ticketID } from '.'
+import ComponentProgress from '../ComponentProgress'
+import Typography from '../Typography'
+import LinkSectionImage from '../../images/contentful-stories/link-section.png'
+import LinkModalImage from '../../images/contentful-stories/link-modal.png'
+
+
+<Meta title='Components|Link' component={Link} decorators={[(story) => <><ComponentProgress ticketID={ticketID} />{story()}</>]} />
+
+# Link
+The default behavior of this component is Single Page App (SPA) internal links. This uses Gatsby `Link`
+with a condition that checks for a full URL (e.g. `https://www.google.com`) to switch to external linking.
+
+<Preview>
+  <Story name="internal">
+    <Link to="/test">I link internally and use the SPA router</Link>
+  </Story>
+</Preview>
+
+## Props
+<Props of={Link} />
+
+## External links
+The external link is detected automatically based on the URL format, and opens a new tab with `noopener noreferrer`.
+<Preview>
+  <Story name="external">
+    <Link to="https://www.google.com">I link outward and do not use the SPA router</Link>
+  </Story>
+</Preview>
+
+## Contentful
+
+<Preview>
+  <Story name="contentful">
+    <>
+      <Typography>If a link is internal, the "Link Target" needs to be relative e.g. <code>/fios/internet</code></Typography>
+      <Typography>If a link is external, the "Link Target" needs to be absolute. e.g. <code>https://go.frontier.com/fios/internet</code></Typography>
+      <Typography>Relative links have performance benefits due the way Gatsby handles internal links and external links will be opened in a new tab.</Typography>
+      <br />
+      <Typography>In the "Main Content" click the link icon in the tool bar.</Typography>
+      <img src={LinkSectionImage} alt="Link section" />
+      <Typography>Which opens the Link modal</Typography>
+      <img src={LinkModalImage} alt="Link modal" />
+    </>
+  </Story>
+</Preview>

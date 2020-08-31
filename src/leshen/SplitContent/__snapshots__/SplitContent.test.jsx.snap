@@ -1,0 +1,603 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SplitContent should not throw an error without an image 1`] = `
+.emotion-15 {
+  padding-left: calc(2.2222222222222223vw + 21.333333333333332px);
+  padding-right: calc(2.2222222222222223vw + 21.333333333333332px);
+  padding-top: calc(7.777777777777778vw + -5.333333333333333px);
+  padding-bottom: calc(7.777777777777778vw + -5.333333333333333px);
+  position: relative;
+}
+
+@media (max-width:480px) {
+  .emotion-15 {
+    padding-left: 32px;
+  }
+}
+
+@media (min-width:1200px) {
+  .emotion-15 {
+    padding-left: 48px;
+  }
+}
+
+@media (max-width:480px) {
+  .emotion-15 {
+    padding-right: 32px;
+  }
+}
+
+@media (min-width:1200px) {
+  .emotion-15 {
+    padding-right: 48px;
+  }
+}
+
+@media (min-width:1288px) {
+  .emotion-15 {
+    padding-right: calc((100% - 1200px) / 2);
+    padding-left: calc((100% - 1200px) / 2);
+  }
+}
+
+@media (max-width:480px) {
+  .emotion-15 {
+    padding-top: 32px;
+  }
+}
+
+@media (min-width:1200px) {
+  .emotion-15 {
+    padding-top: 88px;
+  }
+}
+
+@media (max-width:480px) {
+  .emotion-15 {
+    padding-bottom: 32px;
+  }
+}
+
+@media (min-width:1200px) {
+  .emotion-15 {
+    padding-bottom: 88px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .emotion-15:nth-of-type(odd) .split-content__grid {
+    grid-template-areas: "content image";
+  }
+}
+
+.emotion-15 .split-content__grid {
+  display: grid;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  grid-template-rows: auto auto;
+  grid-template-areas: "image" "content";
+  grid-gap: calc(4.444444444444445vw + 10.666666666666666px);
+}
+
+@media (max-width:480px) {
+  .emotion-15 .split-content__grid {
+    grid-gap: 32px;
+  }
+}
+
+@media (min-width:1200px) {
+  .emotion-15 .split-content__grid {
+    grid-gap: 64px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .emotion-15 .split-content__grid {
+    grid-template-areas: "image content";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: none;
+  }
+}
+
+.emotion-15 .split-content__image {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  grid-area: image;
+}
+
+@media screen and (min-width:768px) {
+  .emotion-15 .split-content__image {
+    display: block;
+  }
+}
+
+.emotion-15 .split-content__content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  grid-area: content;
+}
+
+.emotion-10 {
+  font-weight: 800;
+  font-size: calc(2.7777777777777777vw + 14.666666666666666px);
+  line-height: calc(3.3333333333333335vw + 16px);
+}
+
+@media (max-width:480px) {
+  .emotion-10 {
+    font-size: 28px;
+  }
+}
+
+@media (min-width:1200px) {
+  .emotion-10 {
+    font-size: 48px;
+  }
+}
+
+@media (max-width:480px) {
+  .emotion-10 {
+    line-height: 32px;
+  }
+}
+
+@media (min-width:1200px) {
+  .emotion-10 {
+    line-height: 56px;
+  }
+}
+
+@media all and (-ms-high-contrast:none),(-ms-high-contrast:active) {
+  .emotion-10 {
+    width: 100%;
+  }
+}
+
+.emotion-12 {
+  font-weight: 500;
+  font-size: calc(0.5555555555555556vw + 17.333333333333332px);
+  line-height: calc(1.1111111111111112vw + 18.666666666666668px);
+}
+
+@media (max-width:480px) {
+  .emotion-12 {
+    font-size: 20px;
+  }
+}
+
+@media (min-width:1200px) {
+  .emotion-12 {
+    font-size: 24px;
+  }
+}
+
+@media (max-width:480px) {
+  .emotion-12 {
+    line-height: 24px;
+  }
+}
+
+@media (min-width:1200px) {
+  .emotion-12 {
+    line-height: 32px;
+  }
+}
+
+@media all and (-ms-high-contrast:none),(-ms-high-contrast:active) {
+  .emotion-12 {
+    width: 100%;
+  }
+}
+
+.emotion-8 {
+  background-color: #f4f5f6;
+  border-radius: 4px;
+  border: 1px solid #ff3068;
+  box-shadow: 0 0.3rem 1rem 0 rgba(0,0,0,0.1);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+.emotion-8 * {
+  color: #383d43;
+}
+
+.emotion-0 {
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  background-color: #ff3068;
+  padding: 24px 16px;
+}
+
+.emotion-0 svg {
+  fill: #000;
+}
+
+.emotion-6 {
+  color: #383d43;
+  padding: 12px 16px;
+  text-align: left;
+}
+
+.emotion-6 p {
+  margin: 0;
+}
+
+.emotion-2 {
+  font-size: 0.875rem;
+  line-height: 1.375rem;
+}
+
+@media all and (-ms-high-contrast:none),(-ms-high-contrast:active) {
+  .emotion-2 {
+    width: 100%;
+  }
+}
+
+.emotion-4 {
+  font-size: 1rem;
+  line-height: 1.375rem;
+}
+
+@media all and (-ms-high-contrast:none),(-ms-high-contrast:active) {
+  .emotion-4 {
+    width: 100%;
+  }
+}
+
+<div>
+  <section
+    class="emotion-14 emotion-15 emotion-16"
+  >
+    <div
+      class="split-content__grid"
+    >
+      <div
+        class="split-content__image"
+      >
+        <div
+          class="emotion-8 emotion-9"
+          color="error"
+        >
+          <div
+            class="emotion-0 emotion-1"
+            color="error"
+          >
+            <span>
+              Error icon Mock
+            </span>
+          </div>
+          <div
+            class="emotion-6 emotion-7"
+          >
+            <p
+              class="emotion-2 emotion-3"
+            >
+              Notice
+            </p>
+            <p
+              class="emotion-4 emotion-3"
+            >
+              The content entry of type "SplitContent" is missing the Image media asset.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="split-content__content"
+      >
+        <h2
+          class="emotion-10 emotion-11"
+        >
+          Heading
+        </h2>
+        <h3
+          class="emotion-12 emotion-13"
+        >
+          Subheading
+        </h3>
+        <p>
+          Main Content
+        </p>
+      </div>
+    </div>
+  </section>
+</div>
+`;
+
+exports[`SplitContent should render 1`] = `
+.emotion-7 {
+  padding-left: calc(2.2222222222222223vw + 21.333333333333332px);
+  padding-right: calc(2.2222222222222223vw + 21.333333333333332px);
+  padding-top: calc(7.777777777777778vw + -5.333333333333333px);
+  padding-bottom: calc(7.777777777777778vw + -5.333333333333333px);
+  position: relative;
+}
+
+@media (max-width:480px) {
+  .emotion-7 {
+    padding-left: 32px;
+  }
+}
+
+@media (min-width:1200px) {
+  .emotion-7 {
+    padding-left: 48px;
+  }
+}
+
+@media (max-width:480px) {
+  .emotion-7 {
+    padding-right: 32px;
+  }
+}
+
+@media (min-width:1200px) {
+  .emotion-7 {
+    padding-right: 48px;
+  }
+}
+
+@media (min-width:1288px) {
+  .emotion-7 {
+    padding-right: calc((100% - 1200px) / 2);
+    padding-left: calc((100% - 1200px) / 2);
+  }
+}
+
+@media (max-width:480px) {
+  .emotion-7 {
+    padding-top: 32px;
+  }
+}
+
+@media (min-width:1200px) {
+  .emotion-7 {
+    padding-top: 88px;
+  }
+}
+
+@media (max-width:480px) {
+  .emotion-7 {
+    padding-bottom: 32px;
+  }
+}
+
+@media (min-width:1200px) {
+  .emotion-7 {
+    padding-bottom: 88px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .emotion-7:nth-of-type(odd) .split-content__grid {
+    grid-template-areas: "content image";
+  }
+}
+
+.emotion-7 .split-content__grid {
+  display: grid;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  grid-template-rows: auto auto;
+  grid-template-areas: "image" "content";
+  grid-gap: calc(4.444444444444445vw + 10.666666666666666px);
+}
+
+@media (max-width:480px) {
+  .emotion-7 .split-content__grid {
+    grid-gap: 32px;
+  }
+}
+
+@media (min-width:1200px) {
+  .emotion-7 .split-content__grid {
+    grid-gap: 64px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .emotion-7 .split-content__grid {
+    grid-template-areas: "image content";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: none;
+  }
+}
+
+.emotion-7 .split-content__image {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  grid-area: image;
+}
+
+@media screen and (min-width:768px) {
+  .emotion-7 .split-content__image {
+    display: block;
+  }
+}
+
+.emotion-7 .split-content__content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  grid-area: content;
+}
+
+.emotion-0 {
+  max-width: 2560px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.emotion-2 {
+  font-weight: 800;
+  font-size: calc(2.7777777777777777vw + 14.666666666666666px);
+  line-height: calc(3.3333333333333335vw + 16px);
+}
+
+@media (max-width:480px) {
+  .emotion-2 {
+    font-size: 28px;
+  }
+}
+
+@media (min-width:1200px) {
+  .emotion-2 {
+    font-size: 48px;
+  }
+}
+
+@media (max-width:480px) {
+  .emotion-2 {
+    line-height: 32px;
+  }
+}
+
+@media (min-width:1200px) {
+  .emotion-2 {
+    line-height: 56px;
+  }
+}
+
+@media all and (-ms-high-contrast:none),(-ms-high-contrast:active) {
+  .emotion-2 {
+    width: 100%;
+  }
+}
+
+.emotion-4 {
+  font-weight: 500;
+  font-size: calc(0.5555555555555556vw + 17.333333333333332px);
+  line-height: calc(1.1111111111111112vw + 18.666666666666668px);
+}
+
+@media (max-width:480px) {
+  .emotion-4 {
+    font-size: 20px;
+  }
+}
+
+@media (min-width:1200px) {
+  .emotion-4 {
+    font-size: 24px;
+  }
+}
+
+@media (max-width:480px) {
+  .emotion-4 {
+    line-height: 24px;
+  }
+}
+
+@media (min-width:1200px) {
+  .emotion-4 {
+    line-height: 32px;
+  }
+}
+
+@media all and (-ms-high-contrast:none),(-ms-high-contrast:active) {
+  .emotion-4 {
+    width: 100%;
+  }
+}
+
+<div>
+  <section
+    class="emotion-6 emotion-7 emotion-8"
+  >
+    <div
+      class="split-content__grid"
+    >
+      <div
+        class="split-content__image"
+      >
+        <div
+          class="emotion-0 emotion-1 gatsby-image-wrapper"
+          style="position: relative; overflow: hidden;"
+        >
+          <div
+            aria-hidden="true"
+            style="width: 100%; padding-bottom: 73.93767705382436%;"
+          />
+          <img
+            alt=""
+            aria-hidden="true"
+            src="data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAQFAQL/xAAVAQEBAAAAAAAAAAAAAAAAAAABAv/aAAwDAQACEAMQAAABY4VxKBIGf//EABoQAAIDAQEAAAAAAAAAAAAAAAABAgMREjL/2gAIAQEAAQUCrjpP1qE3lksOz//EABYRAQEBAAAAAAAAAAAAAAAAAAAREv/aAAgBAwEBPwHSv//EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAECAQE/AYj/xAAcEAACAQUBAAAAAAAAAAAAAAAAATECEBJBUWH/2gAIAQEABj8C6JUySZ6F7b//xAAcEAACAgIDAAAAAAAAAAAAAAABEQAxIVEQQZH/2gAIAQEAAT8hIHQaigsQF4gXT2NWQVuEdhW3x//aAAwDAQACAAMAAAAQ4+//xAAXEQADAQAAAAAAAAAAAAAAAAAAAREh/9oACAEDAQE/EMVUo//EABYRAQEBAAAAAAAAAAAAAAAAAAARUf/aAAgBAgEBPxDaH//EAB4QAQACAgEFAAAAAAAAAAAAAAERIQAxcUFRYZGx/9oACAEBAAE/EEKI60I86xyRZUEjqPvNJHwy9miG2LXgZRab+9sUtAHGf//Z"
+            style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center; opacity: 1; transition-delay: 500ms;"
+          />
+          <picture>
+            <source
+              sizes="(max-width: 706px) 100vw, 706px"
+              srcset="test-file-stub"
+            />
+            <img
+              alt="Alt Text"
+              loading="lazy"
+              sizes="(max-width: 706px) 100vw, 706px"
+              src="test-file-stub"
+              srcset="test-file-stub"
+              style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center; opacity: 0; transition: opacity 500ms;"
+            />
+          </picture>
+          <noscript>
+            &lt;picture&gt;&lt;source srcset="test-file-stub" sizes="(max-width: 706px) 100vw, 706px" /&gt;&lt;img loading="lazy" sizes="(max-width: 706px) 100vw, 706px" srcset="test-file-stub" src="test-file-stub" alt="Alt Text" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/&gt;&lt;/picture&gt;
+          </noscript>
+        </div>
+      </div>
+      <div
+        class="split-content__content"
+      >
+        <h2
+          class="emotion-2 emotion-3"
+        >
+          Heading
+        </h2>
+        <h3
+          class="emotion-4 emotion-5"
+        >
+          Subheading
+        </h3>
+        <p>
+          Main Content
+        </p>
+      </div>
+    </div>
+  </section>
+</div>
+`;

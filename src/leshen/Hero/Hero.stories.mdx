@@ -1,0 +1,178 @@
+import { Story, Meta, Preview, Props, Anchor } from '@storybook/addon-docs/blocks'
+import { Done, Phone } from 'emotion-icons/material'
+
+import Hero, { ticketID } from '.'
+import Typography from '../Typography'
+import PackageProvider from '../PackageProvider'
+import List from '../List'
+import ListItem from '../List/ListItem'
+import Button from '../Button'
+import Breadcrumbs from '../Breadcrumbs'
+import { FLUID_IMAGE_DATA, FLUID_IMAGE_DATA_SPLIT } from './dummyData'
+import { CRUMB_DATA } from '../Breadcrumbs/dummyData'
+import ComponentProgress from '../ComponentProgress'
+
+import HeroImage from '../../images/contentful-stories/hero.png'
+import HeroFieldsImage from '../../images/contentful-stories/hero-fields.png'
+import HeroPackageImage from '../../images/contentful-stories/hero-module-package.png'
+
+<Meta title='Components|Hero' component={Hero} decorators={[(story) => <><ComponentProgress ticketID={ticketID} />{story()}</>]} />
+
+# Hero
+
+<Preview>
+  <Story name="basic">
+    <Hero image={FLUID_IMAGE_DATA}>
+      <Typography variant="h1">
+        Bundle DIRECTV Packages and CenturyLink
+      </Typography>
+      <Typography variant="h4" rendersAs="h2">
+        DIRECTV SELECT All-included + CenturyLink Internet up to 20 Mbps
+        starting at
+      </Typography>
+      <PackageProvider
+        price={{ amount: '45', condensed: true, large: true }}
+        bullets={
+          <List>
+            <ListItem icon={<Done />}>
+              <Typography variant="h5" rendersAs="span">
+                Download Speeds up to 20 Mbps
+              </Typography>
+            </ListItem>
+            <ListItem icon={<Done />}>
+              <Typography variant="h5" rendersAs="span">
+                No Contract
+              </Typography>
+            </ListItem>
+            <ListItem icon={<Done />}>
+              <Typography variant="h5" rendersAs="span">
+                No Bundling Required
+              </Typography>
+            </ListItem>
+          </List>
+        }
+        legal={
+          <p>
+            Speed may not be available in your area. Rate excludes taxes;
+            activation fee applies.
+          </p>
+        }
+      />
+      <Button leftIcon={<Phone />} variant="hero">
+        Call Now 1.888.888.8888
+      </Button>
+    </Hero>
+  </Story>
+</Preview>
+
+## Props
+<Props of={Hero} />
+
+## Split Variant
+<Preview>
+  <Story name="split variant">
+    <Hero image={FLUID_IMAGE_DATA_SPLIT} type="Split" darkText={false}>
+      <Typography variant="h1">
+        Bundle DIRECTV Packages and CenturyLink
+      </Typography>
+      <Typography variant="h4" rendersAs="h2">
+        DIRECTV SELECT All-included + CenturyLink Internet up to 20 Mbps
+        starting at
+      </Typography>
+      <PackageProvider
+        price={{ amount: '45', condensed: true, large: true }}
+        bullets={
+          <List>
+            <ListItem icon={<Done />}>
+              <Typography variant="h5" rendersAs="span">
+                Download Speeds up to 20 Mbps
+              </Typography>
+            </ListItem>
+            <ListItem icon={<Done />}>
+              <Typography variant="h5" rendersAs="span">
+                No Contract
+              </Typography>
+            </ListItem>
+            <ListItem icon={<Done />}>
+              <Typography variant="h5" rendersAs="span">
+                No Bundling Required
+              </Typography>
+            </ListItem>
+          </List>
+        }
+        legal={
+          <p>
+            Speed may not be available in your area. Rate excludes taxes;
+            activation fee applies.
+          </p>
+        }
+      />
+      <Button leftIcon={<Phone />} variant="hero">
+        Call Now 1.888.888.8888
+      </Button>
+    </Hero>
+  </Story>
+</Preview>
+
+## With Breadcrumbs
+<Preview>
+  <Story name="with breadcrumbs">
+    <Hero
+      image={FLUID_IMAGE_DATA}
+      breadcrumbProps={CRUMB_DATA}>
+      <Typography variant="h1">
+        Bundle DIRECTV Packages and CenturyLink
+      </Typography>
+      <Typography variant="h4" rendersAs="h2">
+        DIRECTV SELECT All-included + CenturyLink Internet up to 20 Mbps
+        starting at
+      </Typography>
+      <PackageProvider
+        price={{ amount: '45', condensed: true, large: true }}
+        bullets={
+          <List>
+            <ListItem icon={<Done />}>
+              <Typography variant="h5" rendersAs="span">
+                Download Speeds up to 20 Mbps
+              </Typography>
+            </ListItem>
+            <ListItem icon={<Done />}>
+              <Typography variant="h5" rendersAs="span">
+                No Contract
+              </Typography>
+            </ListItem>
+            <ListItem icon={<Done />}>
+              <Typography variant="h5" rendersAs="span">
+                No Bundling Required
+              </Typography>
+            </ListItem>
+          </List>
+        }
+        legal={
+          <p>
+            Speed may not be available in your area. Rate excludes taxes;
+            activation fee applies.
+          </p>
+        }
+      />
+      <Button leftIcon={<Phone />} variant="hero">
+        Call Now 1.888.888.8888
+      </Button>
+    </Hero>
+  </Story>
+</Preview>
+
+## Contentful
+
+<Preview>
+  <Story name="contentful">
+    <>
+      <Typography>In the "Page" entry, click "Create a new Hero and link". <strong>"Type", "Text Color", and "Heading" are required.</strong></Typography>
+      <img src={HeroImage} alt="Example of a Hero" />
+      <Typography>An example of a Hero entry's fields</Typography>
+      <img src={HeroFieldsImage} alt="Example of a Hero entry's fields" />
+      <Typography>A package may be added to the hero from the "Modules" entry.</Typography>
+      <img src={HeroPackageImage} alt="Example of a Hero with a package" />
+    </>
+  </Story>
+</Preview>

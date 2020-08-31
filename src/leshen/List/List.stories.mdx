@@ -1,0 +1,60 @@
+import { Story, Meta, Preview, Props, Anchor } from '@storybook/addon-docs/blocks'
+import { Done, Fingerprint } from 'emotion-icons/material'
+
+import List, { ticketID } from '.'
+import ListItem from './ListItem'
+import ComponentProgress from '../ComponentProgress'
+
+<Meta title='Components|List' component={List} decorators={[(story) => <><ComponentProgress ticketID={ticketID} />{story()}</>]} />
+
+# List
+By default the list renders as a `ul`.
+<Preview>
+  <Story name="unordered">
+    <List>
+      <ListItem content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur." />
+      <ListItem content="Two" />
+    </List>
+  </Story>
+</Preview>
+
+## Props
+#### List
+<Props of={List} />
+
+#### ListItem
+<Props of={ListItem} />
+
+## Ordered List
+<Preview>
+  <Story name="ordered">
+    <List type="ordered">
+      <ListItem content="One" />
+      <ListItem content="Two" />
+    </List>
+  </Story>
+</Preview>
+
+## Icons
+<Preview>
+  <Story name="icons">
+    <List>
+      <ListItem icon={<Done color="mediumaquamarine" />} content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur." />
+      <ListItem icon={<Done color="mediumaquamarine" />} content="Two" />
+    </List>
+  </Story>
+</Preview>
+
+#### Icon and multiple child content
+<Preview>
+  <Story name="icon with multiple child content">
+    <List>
+      <ListItem icon={<Fingerprint size="50px" />}>
+        <div>
+          <strong>Press and hold here</strong>
+        </div>
+        <em>To pay me $1,500 smakaroos</em>
+      </ListItem>
+    </List>
+  </Story>
+</Preview>

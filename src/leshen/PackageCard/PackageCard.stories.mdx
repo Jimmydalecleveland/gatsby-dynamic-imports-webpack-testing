@@ -1,0 +1,128 @@
+import {
+  Story,
+  Meta,
+  Preview,
+  Props,
+  Anchor,
+} from "@storybook/addon-docs/blocks"
+
+import PackageCard, { ticketID } from "."
+import Columns from "../Columns"
+import Section from "../Section"
+import LinkButton from "../LinkButton"
+import { PACKAGE_DATA } from "../PackageProvider/dummyData"
+import ComponentProgress from "../ComponentProgress"
+import { PACKAGE_CARD } from "../utils/dataTrackingValues"
+
+<Meta
+  title="Components|PackageCard"
+  component={PackageCard}
+  decorators={[
+    story => (
+      <>
+        <ComponentProgress ticketID={ticketID} />
+        {story()}
+      </>
+    ),
+  ]}
+/>
+
+# Package Card
+
+<Preview>
+  <Story name="package card">
+    <Section>
+      <PackageCard
+        label="Best Value"
+        packageData={PACKAGE_DATA}
+        cta={
+          <LinkButton
+            to="/test"
+            variant="feature"
+            data-tracking={PACKAGE_CARD.BUTTON}
+          >
+            Learn More
+          </LinkButton>
+        }
+      />
+    </Section>
+  </Story>
+</Preview>
+
+## Props
+
+<Props of={PackageCard} />
+
+## Package Card with custom children
+
+When child nodes are passed to `PackageCard`, they are rendered above the main CTA at the bottom. This allows for custom additions after the main information that is commonly found in a package card. In this example the "Terms and Conditions" link has been passed.
+
+<Preview>
+  <Story name="package card with custom children">
+    <Section>
+      <PackageCard
+        label="Best Value"
+        packageData={PACKAGE_DATA}
+        cta={
+          <LinkButton
+            to="/test"
+            variant="feature"
+            data-tracking={PACKAGE_CARD.BUTTON}
+          >
+            Learn More
+          </LinkButton>
+        }
+      >
+        <a
+          href="/terms"
+          style={{
+            fontSize: "10px",
+            fontWeight: "bold",
+            textDecoration: "none",
+            color: "#444",
+          }}
+        >
+          Terms and Conditions
+        </a>
+      </PackageCard>
+    </Section>
+  </Story>
+</Preview>
+
+## Package Card Section
+
+<Preview>
+  <Story name="package card section">
+    <Section>
+      <Columns>
+        <PackageCard
+          label="Best Value"
+          packageData={PACKAGE_DATA}
+          cta={
+            <LinkButton to="/test" variant="feature">
+              Learn More
+            </LinkButton>
+          }
+        />
+        <PackageCard
+          label="Best Value"
+          packageData={PACKAGE_DATA}
+          cta={
+            <LinkButton to="/test" variant="feature">
+              Learn More
+            </LinkButton>
+          }
+        />
+        <PackageCard
+          label="Best Value"
+          packageData={PACKAGE_DATA}
+          cta={
+            <LinkButton to="/test" variant="feature">
+              Learn More
+            </LinkButton>
+          }
+        />
+      </Columns>
+    </Section>
+  </Story>
+</Preview>

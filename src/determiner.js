@@ -32,24 +32,6 @@ export const determineComponent = ({ id, name, children }) => {
   let Component
 
   switch (name) {
-    case "Alpha":
-      Component = Alpha
-      break
-    case "Bravo":
-      Component = Bravo
-      break
-    case "Charlie":
-      Component = Charlie
-      break
-    case "Delta":
-      Component = Delta
-      break
-    case "Echo":
-      Component = Echo
-      break
-    case "Foxtrot":
-      Component = Foxtrot
-      break
     case "Button":
       Component = Button
       break
